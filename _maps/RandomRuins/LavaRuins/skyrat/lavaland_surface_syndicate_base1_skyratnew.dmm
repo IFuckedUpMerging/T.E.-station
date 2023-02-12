@@ -1,0 +1,3897 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aW" = (
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron,
+/area/ruin/syndicate_lava_base/main)
+"bK" = (
+/obj/item/toy/figure/syndie,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"bN" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp,
+/obj/structure/window/reinforced/survival_pod,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 10
+	},
+/turf/open/floor/carpet/orange,
+/area/ruin/syndicate_lava_base/cargo)
+"cA" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/lavaland/surface/outdoors)
+"cN" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/diagonal,
+/area/ruin/syndicate_lava_base/cargo)
+"cY" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/medbay)
+"dc" = (
+/obj/structure/railing/corner,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"dA" = (
+/turf/open/floor/iron/half{
+	dir = 1
+	},
+/area/ruin/syndicate_lava_base/cargo)
+"dT" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/diagonal,
+/area/ruin/syndicate_lava_base/cargo)
+"dY" = (
+/obj/machinery/suit_storage_unit/syndicate/chameleon,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 8
+	},
+/turf/open/floor/iron/small,
+/area/ruin/syndicate_lava_base/main)
+"ei" = (
+/obj/item/kirbyplants/random,
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/syndicate_lava_base/main)
+"gn" = (
+/turf/open/floor/iron/white,
+/area/ruin/syndicate_lava_base/medbay)
+"gG" = (
+/obj/machinery/door/poddoor{
+	id = "interdynedeckofficer"
+	},
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/cargo)
+"gZ" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/carpet/orange,
+/area/ruin/syndicate_lava_base/cargo)
+"hf" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/obj/structure/curtain/cloth/fancy/mechanical{
+	id = "deckofficerip"
+	},
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/cargo)
+"hj" = (
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/cargo)
+"if" = (
+/obj/structure/ore_box,
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/ruin/syndicate_lava_base/cargo)
+"ir" = (
+/obj/structure/filingcabinet,
+/obj/item/folder/syndicate/mining,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 8
+	},
+/turf/open/floor/iron/small,
+/area/ruin/syndicate_lava_base/main)
+"ja" = (
+/obj/structure/closet/crate/internals,
+/obj/item/tank/internals/oxygen/yellow,
+/obj/item/tank/internals/oxygen/yellow,
+/obj/item/tank/internals/oxygen/yellow,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/effect/turf_decal/box/white/corners{
+	dir = 4
+	},
+/obj/effect/turf_decal/box/white/corners{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/ruin/syndicate_lava_base/cargo)
+"jl" = (
+/obj/structure/closet/crate,
+/obj/item/flashlight{
+	pixel_x = -5;
+	pixel_y = 5
+	},
+/obj/item/flashlight{
+	pixel_x = -2;
+	pixel_y = 2
+	},
+/obj/item/flashlight{
+	pixel_x = 1;
+	pixel_y = -1
+	},
+/obj/item/extinguisher{
+	pixel_x = -5;
+	pixel_y = 5
+	},
+/obj/item/extinguisher{
+	pixel_x = -2;
+	pixel_y = 2
+	},
+/obj/item/extinguisher{
+	pixel_x = 1;
+	pixel_y = -1
+	},
+/obj/effect/turf_decal/box/white/corners{
+	dir = 8
+	},
+/obj/effect/turf_decal/box/white/corners,
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/ruin/syndicate_lava_base/cargo)
+"jM" = (
+/obj/structure/bed/double/pod,
+/obj/item/bedsheet/qm/double{
+	name = "deck officer's bedsheet"
+	},
+/obj/machinery/button/door/directional/east{
+	id = "interdynedeckofficer";
+	req_access = list("syndicate")
+	},
+/turf/open/floor/carpet/orange,
+/area/ruin/syndicate_lava_base/cargo)
+"jS" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"jY" = (
+/obj/effect/turf_decal/siding/brown,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/turf/open/floor/wood/tile,
+/area/ruin/syndicate_lava_base/cargo)
+"ko" = (
+/obj/structure/lattice/catwalk/mining,
+/obj/structure/railing,
+/turf/open/lava/smooth/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"ks" = (
+/obj/structure/sign/flag/syndicate/directional/west,
+/turf/open/floor/iron/half,
+/area/ruin/syndicate_lava_base/cargo)
+"kQ" = (
+/turf/open/lava/smooth/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"lG" = (
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/white/smooth_half{
+	dir = 1
+	},
+/area/ruin/syndicate_lava_base/medbay)
+"lI" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/door/airlock{
+	name = "Bathroom"
+	},
+/turf/open/floor/iron/showroomfloor,
+/area/ruin/syndicate_lava_base/cargo)
+"lU" = (
+/obj/machinery/suit_storage_unit/mining,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/brown/filled/mid_joiner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/mid_joiner{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/dark/smooth_large,
+/area/ruin/syndicate_lava_base/cargo)
+"mH" = (
+/obj/structure/closet/crate/medical,
+/obj/item/storage/medkit/fire{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/medkit/brute,
+/obj/item/storage/medkit/regular{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/effect/turf_decal/box/white/corners{
+	dir = 1
+	},
+/obj/effect/turf_decal/box/white/corners{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/ruin/syndicate_lava_base/cargo)
+"mQ" = (
+/obj/structure/curtain,
+/obj/structure/drain,
+/obj/machinery/shower/directional/south,
+/turf/open/floor/iron/showroomfloor,
+/area/ruin/syndicate_lava_base/cargo)
+"no" = (
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/white/smooth_half,
+/area/ruin/syndicate_lava_base/medbay)
+"of" = (
+/obj/structure/railing,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/catwalk_floor,
+/area/ruin/syndicate_lava_base/cargo)
+"oZ" = (
+/obj/structure/chair/office/tactical{
+	dir = 4
+	},
+/turf/open/floor/glass/reinforced,
+/area/ruin/syndicate_lava_base/cargo)
+"pe" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/mid_joiner{
+	dir = 4
+	},
+/turf/open/floor/iron/half{
+	dir = 1
+	},
+/area/ruin/syndicate_lava_base/cargo)
+"pl" = (
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/structure/fans/tiny,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	id = "interdynemining"
+	},
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/cargo)
+"pU" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/paper_bin,
+/obj/item/pen/survival,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/floor/wood/tile,
+/area/ruin/syndicate_lava_base/cargo)
+"qC" = (
+/turf/open/floor/iron/half,
+/area/ruin/syndicate_lava_base/cargo)
+"qH" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/mining_voucher,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/turf/open/floor/wood/tile,
+/area/ruin/syndicate_lava_base/cargo)
+"qP" = (
+/obj/machinery/door/firedoor,
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/medbay)
+"rk" = (
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/half{
+	dir = 1
+	},
+/area/ruin/syndicate_lava_base/cargo)
+"rz" = (
+/turf/open/floor/iron,
+/area/lavaland/surface/outdoors)
+"uo" = (
+/obj/effect/turf_decal/box/red/corners,
+/obj/effect/turf_decal/box/red/corners{
+	dir = 8
+	},
+/obj/structure/closet/crate/secure/gear{
+	req_access = list("syndicate")
+	},
+/obj/item/clothing/glasses/night,
+/obj/item/clothing/glasses/night,
+/obj/item/clothing/glasses/night,
+/obj/item/storage/belt/military,
+/obj/item/storage/belt/military,
+/obj/item/clothing/mask/gas/syndicate,
+/obj/item/clothing/mask/gas/syndicate,
+/obj/item/clothing/shoes/combat,
+/obj/item/clothing/shoes/combat,
+/obj/item/clothing/under/syndicate/combat,
+/obj/item/clothing/under/syndicate/combat,
+/obj/item/clothing/gloves/combat,
+/obj/item/clothing/gloves/combat,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/radio/headset/interdyne,
+/obj/item/radio/headset/interdyne,
+/obj/item/radio/headset/interdyne,
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/ruin/syndicate_lava_base/cargo)
+"vp" = (
+/obj/effect/turf_decal/loading_area/red,
+/turf/open/floor/iron/half,
+/area/ruin/syndicate_lava_base/cargo)
+"vV" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/machinery/door/airlock/command{
+	name = "Deck Officer"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/leader,
+/turf/open/floor/wood/tile,
+/area/ruin/syndicate_lava_base/cargo)
+"vZ" = (
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	id = "interdynemining"
+	},
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/cargo)
+"wp" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/main)
+"wS" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/turf/open/floor/iron/small,
+/area/ruin/syndicate_lava_base/main)
+"xb" = (
+/turf/open/floor/iron,
+/area/ruin/syndicate_lava_base/main)
+"xd" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"xo" = (
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/iron/half,
+/area/ruin/syndicate_lava_base/cargo)
+"yC" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/turf/open/floor/iron/half,
+/area/ruin/syndicate_lava_base/cargo)
+"zu" = (
+/turf/open/floor/iron/corner{
+	dir = 1
+	},
+/area/ruin/syndicate_lava_base/cargo)
+"zE" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/syndicate_lava_base/cargo)
+"Av" = (
+/obj/effect/turf_decal/siding/brown,
+/obj/machinery/button/curtain{
+	pixel_y = -26;
+	id = "deckofficerip"
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/tile,
+/area/ruin/syndicate_lava_base/cargo)
+"Ay" = (
+/obj/effect/turf_decal/siding/dark_red{
+	dir = 1
+	},
+/obj/machinery/door/airlock/vault{
+	id_tag = "syndie_lavaland_vault"
+	},
+/obj/machinery/button/door{
+	id = "syndie_lavaland_vault";
+	name = "Vault Bolt Control";
+	normaldoorcontrol = 1;
+	req_access = list("syndicate");
+	specialfunctions = 4;
+	pixel_x = 24
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/locked,
+/turf/open/floor/iron,
+/area/ruin/syndicate_lava_base/main)
+"AC" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/syndicate_lava_base/main)
+"AD" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/dark/diagonal,
+/area/ruin/syndicate_lava_base/cargo)
+"Bi" = (
+/obj/effect/turf_decal/bot_red,
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/diagonal,
+/area/ruin/syndicate_lava_base/cargo)
+"BA" = (
+/obj/machinery/door/airlock/medical/glass{
+	name = "Medical Wing"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/turf/open/floor/iron/white,
+/area/ruin/syndicate_lava_base/medbay)
+"Cy" = (
+/turf/template_noop,
+/area/space)
+"Ds" = (
+/obj/structure/sink/directional/north,
+/obj/structure/mirror/directional/south,
+/turf/open/floor/iron/showroomfloor,
+/area/ruin/syndicate_lava_base/cargo)
+"DO" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/wood/tile,
+/area/ruin/syndicate_lava_base/cargo)
+"Em" = (
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/diagonal,
+/area/ruin/syndicate_lava_base/cargo)
+"Ep" = (
+/obj/structure/frame/machine{
+	anchored = 1;
+	state = 2;
+	icon_state = "box_1"
+	},
+/obj/item/circuitboard/machine/ore_silo,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 8
+	},
+/turf/open/floor/iron/small,
+/area/ruin/syndicate_lava_base/main)
+"Es" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/tile,
+/area/ruin/syndicate_lava_base/cargo)
+"Ey" = (
+/obj/structure/closet/crate,
+/obj/item/modular_computer/laptop/preset/syndicate,
+/obj/item/modular_computer/laptop/preset/syndicate,
+/obj/item/modular_computer/laptop/preset/syndicate,
+/obj/item/modular_computer/laptop/preset/syndicate,
+/obj/item/modular_computer/laptop/preset/syndicate,
+/obj/item/modular_computer/laptop/preset/syndicate,
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/ruin/syndicate_lava_base/cargo)
+"EH" = (
+/obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/deckofficer,
+/turf/open/floor/carpet/orange,
+/area/ruin/syndicate_lava_base/cargo)
+"EW" = (
+/obj/machinery/suit_storage_unit/mining,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/brown/filled/mid_joiner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/mid_joiner{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/ruin/syndicate_lava_base/cargo)
+"Fl" = (
+/turf/closed/mineral/random/volcanic,
+/area/lavaland/surface/outdoors)
+"Fm" = (
+/obj/structure/rack/shelf,
+/obj/item/pickaxe,
+/obj/item/construction/rcd/loaded,
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/syndicate_lava_base/cargo)
+"Gi" = (
+/turf/open/floor/iron/small,
+/area/ruin/syndicate_lava_base/main)
+"Gp" = (
+/obj/machinery/door/poddoor{
+	id = "interdynecargo"
+	},
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/cargo)
+"GP" = (
+/obj/structure/lattice/catwalk/mining,
+/turf/open/lava/smooth/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"GR" = (
+/obj/structure/closet/crate,
+/obj/item/storage/box/stockparts/deluxe,
+/obj/item/storage/box/stockparts/deluxe,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/circuitboard/machine/processor,
+/obj/item/circuitboard/machine/gibber,
+/obj/item/circuitboard/machine/deep_fryer,
+/obj/item/circuitboard/machine/cell_charger,
+/obj/item/circuitboard/machine/smoke_machine,
+/obj/item/stack/sheet/plasteel/fifty,
+/obj/effect/turf_decal/box/white/corners{
+	dir = 8
+	},
+/obj/effect/turf_decal/box/white/corners,
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/ruin/syndicate_lava_base/cargo)
+"HU" = (
+/obj/structure/dresser,
+/turf/open/floor/carpet/orange,
+/area/ruin/syndicate_lava_base/cargo)
+"Ii" = (
+/obj/machinery/computer/order_console/mining/interdyne,
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/syndicate_lava_base/cargo)
+"IV" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/syndicate_lava_base/medbay)
+"Jc" = (
+/obj/effect/turf_decal/siding/brown/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/tile,
+/area/ruin/syndicate_lava_base/cargo)
+"Jp" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/mid_joiner{
+	dir = 4
+	},
+/turf/open/floor/iron/corner{
+	dir = 1
+	},
+/area/ruin/syndicate_lava_base/cargo)
+"Kl" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/cargo)
+"KI" = (
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/ruin/syndicate_lava_base/cargo)
+"KN" = (
+/obj/structure/toilet{
+	pixel_y = 8
+	},
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/iron/showroomfloor,
+/area/ruin/syndicate_lava_base/cargo)
+"Mz" = (
+/obj/effect/turf_decal/trimline/brown/end{
+	dir = 4
+	},
+/obj/machinery/shower/directional/east,
+/obj/structure/drain/big,
+/turf/open/floor/iron/dark/diagonal,
+/area/ruin/syndicate_lava_base/cargo)
+"ND" = (
+/obj/structure/ore_box,
+/obj/effect/turf_decal/box/white/corners{
+	dir = 4
+	},
+/obj/effect/turf_decal/box/white/corners{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/ruin/syndicate_lava_base/cargo)
+"On" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/tile,
+/area/ruin/syndicate_lava_base/cargo)
+"OT" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood/tile,
+/area/ruin/syndicate_lava_base/cargo)
+"Pc" = (
+/turf/open/floor/iron/dark/smooth_large,
+/area/ruin/syndicate_lava_base/cargo)
+"Pp" = (
+/turf/closed/wall/mineral/titanium/survival/nodiagonal,
+/area/lavaland/surface/outdoors)
+"Pt" = (
+/turf/open/floor/glass/reinforced,
+/area/ruin/syndicate_lava_base/cargo)
+"QH" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/modular_computer/laptop/preset/syndicate,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/tile,
+/area/ruin/syndicate_lava_base/cargo)
+"RK" = (
+/obj/structure/closet/crate,
+/obj/item/storage/toolbox/electrical{
+	pixel_y = 4
+	},
+/obj/item/storage/toolbox/syndicate,
+/obj/effect/turf_decal/box/white/corners,
+/obj/effect/turf_decal/box/white/corners{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/ruin/syndicate_lava_base/cargo)
+"Sk" = (
+/obj/structure/closet/crate/secure/weapon{
+	req_access = list("syndicate")
+	},
+/obj/item/ammo_box/c9mm{
+	pixel_y = 6
+	},
+/obj/item/ammo_box/c9mm,
+/obj/item/ammo_box/magazine/m9mm{
+	pixel_x = -5;
+	pixel_y = 5
+	},
+/obj/item/ammo_box/magazine/m9mm{
+	pixel_x = -2;
+	pixel_y = 2
+	},
+/obj/item/ammo_box/magazine/m9mm{
+	pixel_x = 1;
+	pixel_y = -1
+	},
+/obj/item/ammo_box/magazine/m9mm{
+	pixel_x = 4;
+	pixel_y = -4
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/ruin/syndicate_lava_base/cargo)
+"Sv" = (
+/obj/structure/safe,
+/obj/item/storage/box/syndie_kit/chameleon/ghostcafe{
+	desc = "It's a box, for storing things.";
+	name = "chameleon kit"
+	},
+/obj/item/disk/ammo_workbench/lethal,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/turf/open/floor/iron/small,
+/area/ruin/syndicate_lava_base/main)
+"SO" = (
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"TX" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/wood/tile,
+/area/ruin/syndicate_lava_base/cargo)
+"Up" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/structure/frame/machine{
+	anchored = 1;
+	state = 2;
+	icon_state = "box_1"
+	},
+/obj/item/circuitboard/machine/ore_redemption,
+/obj/item/assembly/igniter,
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 6
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/syndicate_lava_base/cargo)
+"VL" = (
+/obj/structure/closet/secure_closet{
+	icon_state = "qm";
+	name = "deck offficer's locker";
+	req_access = list("syndicate_leader")
+	},
+/obj/item/clothing/neck/cloak/qm/syndie,
+/obj/item/clothing/under/rank/cargo/qm/skyrat/syndie,
+/obj/item/circuitboard/computer/advanced_camera,
+/obj/item/megaphone/cargo,
+/obj/item/clothing/glasses/sunglasses,
+/obj/item/ammo_box/magazine/m9mm{
+	pixel_x = 1;
+	pixel_y = -1
+	},
+/obj/item/gun/ballistic/automatic/pistol,
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/window/reinforced/survival_pod,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 6
+	},
+/turf/open/floor/carpet/orange,
+/area/ruin/syndicate_lava_base/cargo)
+"VR" = (
+/obj/structure/sign/departments/cargo/directional/north,
+/turf/open/floor/iron,
+/area/ruin/syndicate_lava_base/main)
+"WC" = (
+/obj/machinery/door/poddoor/shutters{
+	dir = 1;
+	id = "interdynewarehouse"
+	},
+/turf/open/floor/iron/smooth_half,
+/area/ruin/syndicate_lava_base/cargo)
+"WV" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/iron/small,
+/area/ruin/syndicate_lava_base/main)
+"Xp" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/structure/tank_dispenser,
+/obj/effect/turf_decal/siding/thinplating_new,
+/obj/structure/railing,
+/turf/open/floor/iron/dark,
+/area/ruin/syndicate_lava_base/cargo)
+"Yl" = (
+/obj/structure/lattice/catwalk/mining,
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/lava/smooth/lava_land_surface,
+/area/lavaland/surface/outdoors)
+
+(1,1,1) = {"
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+"}
+(2,1,1) = {"
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+cA
+jS
+xd
+dc
+cA
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+"}
+(3,1,1) = {"
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Yl
+GP
+ko
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Cy
+Cy
+Cy
+"}
+(4,1,1) = {"
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Fl
+Fl
+kQ
+kQ
+zE
+zE
+zE
+kQ
+kQ
+kQ
+Yl
+GP
+ko
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Fl
+Fl
+Fl
+Cy
+Cy
+"}
+(5,1,1) = {"
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Fl
+Fl
+Fl
+Fl
+kQ
+kQ
+zE
+mQ
+zE
+zE
+kQ
+zE
+pl
+zE
+pl
+zE
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Cy
+"}
+(6,1,1) = {"
+Cy
+Cy
+Cy
+Cy
+Fl
+Cy
+Cy
+Cy
+Fl
+Fl
+Fl
+Fl
+Fl
+kQ
+kQ
+kQ
+zE
+KN
+Ds
+zE
+kQ
+Gp
+hj
+of
+hj
+Gp
+bK
+SO
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Cy
+Cy
+"}
+(7,1,1) = {"
+Cy
+Cy
+Cy
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+kQ
+Fl
+kQ
+kQ
+kQ
+zE
+zE
+zE
+lI
+zE
+zE
+zE
+vZ
+zE
+vZ
+zE
+zE
+zE
+zE
+zE
+zE
+zE
+zE
+zE
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Cy
+"}
+(8,1,1) = {"
+Cy
+Cy
+Fl
+Fl
+kQ
+Fl
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+zE
+zE
+VL
+TX
+OT
+jY
+zE
+Fm
+dT
+Mz
+AD
+Xp
+ks
+xo
+zE
+ja
+Ey
+uo
+RK
+zE
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Cy
+Cy
+"}
+(9,1,1) = {"
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+gG
+HU
+gZ
+Es
+Pt
+Av
+zE
+Ii
+cN
+Em
+Bi
+Up
+vp
+qC
+WC
+Pc
+Pc
+Pc
+Pc
+zE
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Cy
+"}
+(10,1,1) = {"
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+gG
+EH
+gZ
+Es
+Pt
+Jc
+hf
+pe
+pe
+pe
+pe
+pe
+Jp
+yC
+WC
+KI
+KI
+mH
+GR
+zE
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Cy
+"}
+(11,1,1) = {"
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+gG
+jM
+bN
+QH
+oZ
+On
+vV
+dA
+dA
+dA
+dA
+dA
+dA
+zu
+WC
+Pc
+Pc
+Pc
+Pc
+zE
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(12,1,1) = {"
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+zE
+zE
+zE
+pU
+DO
+qH
+zE
+EW
+lU
+EW
+zE
+rk
+rk
+Kl
+zE
+ND
+if
+Sk
+jl
+zE
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(13,1,1) = {"
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+zE
+zE
+zE
+zE
+zE
+zE
+zE
+zE
+zE
+VR
+xb
+ei
+zE
+zE
+zE
+zE
+zE
+zE
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(14,1,1) = {"
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Pp
+kQ
+kQ
+kQ
+kQ
+AC
+xb
+xb
+xb
+xb
+xb
+xb
+xb
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(15,1,1) = {"
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+AC
+AC
+AC
+AC
+AC
+kQ
+wp
+xb
+xb
+xb
+xb
+xb
+xb
+xb
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(16,1,1) = {"
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+AC
+Ep
+ir
+dY
+AC
+wp
+wp
+xb
+xb
+xb
+IV
+lG
+lG
+IV
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(17,1,1) = {"
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+AC
+Gi
+Gi
+Gi
+Ay
+xb
+aW
+xb
+xb
+IV
+IV
+gn
+gn
+IV
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(18,1,1) = {"
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+AC
+Sv
+WV
+wS
+AC
+wp
+wp
+xb
+xb
+no
+gn
+gn
+gn
+qP
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(19,1,1) = {"
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+AC
+AC
+AC
+AC
+AC
+SO
+wp
+xb
+xb
+no
+gn
+gn
+gn
+qP
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Cy
+"}
+(20,1,1) = {"
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Pp
+kQ
+SO
+AC
+xb
+xb
+IV
+IV
+BA
+cY
+IV
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Cy
+"}
+(21,1,1) = {"
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+cA
+cA
+cA
+cA
+rz
+rz
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Cy
+Cy
+"}
+(22,1,1) = {"
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+cA
+kQ
+kQ
+kQ
+rz
+rz
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Cy
+"}
+(23,1,1) = {"
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+cA
+kQ
+kQ
+kQ
+rz
+rz
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(24,1,1) = {"
+Cy
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+cA
+cA
+kQ
+kQ
+rz
+rz
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(25,1,1) = {"
+Cy
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+cA
+cA
+cA
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(26,1,1) = {"
+Cy
+Cy
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(27,1,1) = {"
+Cy
+Cy
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(28,1,1) = {"
+Cy
+Cy
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(29,1,1) = {"
+Cy
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Cy
+"}
+(30,1,1) = {"
+Cy
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Cy
+"}
+(31,1,1) = {"
+Cy
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(32,1,1) = {"
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(33,1,1) = {"
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(34,1,1) = {"
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(35,1,1) = {"
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(36,1,1) = {"
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Cy
+"}
+(37,1,1) = {"
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(38,1,1) = {"
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Cy
+"}
+(39,1,1) = {"
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(40,1,1) = {"
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(41,1,1) = {"
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(42,1,1) = {"
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(43,1,1) = {"
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+"}
+(44,1,1) = {"
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Cy
+"}
+(45,1,1) = {"
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Cy
+"}
+(46,1,1) = {"
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Cy
+Cy
+"}
+(47,1,1) = {"
+Cy
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Cy
+"}
+(48,1,1) = {"
+Cy
+Cy
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Cy
+Cy
+"}
+(49,1,1) = {"
+Cy
+Cy
+Cy
+Cy
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Cy
+Cy
+"}
+(50,1,1) = {"
+Cy
+Cy
+Cy
+Cy
+Cy
+Fl
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Fl
+Fl
+Fl
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+kQ
+Fl
+Fl
+Fl
+Cy
+Cy
+Cy
+"}
+(51,1,1) = {"
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Cy
+Cy
+Cy
+Cy
+"}
+(52,1,1) = {"
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Fl
+Fl
+Fl
+Fl
+Fl
+Cy
+Cy
+Cy
+Cy
+Cy
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Fl
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+"}

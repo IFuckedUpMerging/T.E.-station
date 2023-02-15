@@ -5,11 +5,10 @@
 	pixel_y = 5;
 	pixel_x = 5
 	},
-/obj/effect/turf_decal/tile/dark_green,
 /obj/effect/turf_decal/trimline/dark/corner{
 	dir = 8
 	},
-/turf/open/floor/mineral/titanium/tiled,
+/turf/open/floor/mineral/titanium,
 /area/ruin/syndicate_lava_base/medbay)
 "aT" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -152,13 +151,21 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/syndicate_lava_base/main)
+"fg" = (
+/obj/effect/turf_decal/siding/wideplating_new,
+/obj/effect/turf_decal/siding/wideplating_new{
+	dir = 1
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/smooth_half,
+/area/lavaland/surface/outdoors)
 "gk" = (
 /mob/living/carbon/human/species/monkey,
 /turf/open/floor/grass,
 /area/ruin/syndicate_lava_base/virology)
 "gn" = (
 /obj/effect/turf_decal/trimline/dark/filled/warning,
-/turf/open/floor/mineral/titanium/tiled,
+/turf/open/floor/mineral/titanium,
 /area/ruin/syndicate_lava_base/medbay)
 "gG" = (
 /obj/machinery/door/poddoor{
@@ -167,6 +174,10 @@
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/cargo)
+"gT" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/plating,
+/area/lavaland/surface/outdoors)
 "gV" = (
 /turf/open/floor/mineral/titanium,
 /area/ruin/syndicate_lava_base/virology)
@@ -248,6 +259,9 @@
 	},
 /turf/open/floor/iron/small,
 /area/ruin/syndicate_lava_base/main)
+"iv" = (
+/turf/open/floor/mineral/titanium/white,
+/area/lavaland/surface/outdoors)
 "iM" = (
 /obj/effect/baseturf_helper/lava_land/surface,
 /turf/open/floor/iron/small,
@@ -596,7 +610,8 @@
 /area/ruin/syndicate_lava_base/cargo)
 "pN" = (
 /obj/effect/turf_decal/trimline/dark_green/filled/line,
-/turf/open/floor/mineral/titanium/tiled,
+/obj/effect/turf_decal/trimline/dark_green/filled/mid_joiner,
+/turf/open/floor/mineral/titanium,
 /area/ruin/syndicate_lava_base/medbay)
 "pU" = (
 /obj/structure/table/reinforced/plastitaniumglass,
@@ -716,6 +731,15 @@
 /obj/machinery/smartfridge/chemistry/preloaded,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/syndicate_lava_base/medbay)
+"su" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
+	},
+/obj/structure/table,
+/obj/item/storage/belt/utility/xenoarch,
+/obj/item/storage/bag/xenoarch,
+/turf/open/floor/mineral/plastitanium/red,
+/area/lavaland/surface/outdoors)
 "sw" = (
 /turf/open/floor/wood/large,
 /area/ruin/syndicate_lava_base/bar)
@@ -778,6 +802,19 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/syndicate_lava_base/main)
+"uv" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
+	},
+/obj/structure/table,
+/obj/item/xenoarch/handheld_scanner,
+/obj/item/xenoarch/brush,
+/obj/item/xenoarch/hammer/cm1{
+	pixel_x = -5
+	},
+/obj/item/xenoarch/tape_measure,
+/turf/open/floor/mineral/plastitanium/red,
+/area/lavaland/surface/outdoors)
 "uW" = (
 /obj/structure/chair/sofa/corner/maroon{
 	dir = 4
@@ -940,6 +977,14 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/syndicate_lava_base/medbay)
+"yh" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/obj/machinery/door/poddoor{
+	id = "arrivals";
+	name = "Arrivals Blast Door"
+	},
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/main)
 "yn" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 8
@@ -962,6 +1007,18 @@
 /obj/machinery/computer/security/telescreen/entertainment/directional/south,
 /turf/open/floor/wood/tile,
 /area/ruin/syndicate_lava_base/main)
+"yL" = (
+/obj/effect/turf_decal/siding/wideplating_new{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wideplating_new{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/lavaland/surface/outdoors)
 "yO" = (
 /obj/machinery/limbgrower/fullupgrade,
 /obj/effect/turf_decal/trimline/dark_green/line,
@@ -1050,7 +1107,7 @@
 /obj/structure/sign/poster/contraband/syndicate_medical{
 	pixel_y = 32
 	},
-/turf/open/floor/mineral/titanium/tiled,
+/turf/open/floor/mineral/titanium,
 /area/ruin/syndicate_lava_base/medbay)
 "AU" = (
 /obj/structure/lattice/catwalk,
@@ -1200,7 +1257,7 @@
 /obj/machinery/door/airlock,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/effect/mapping_helpers/airlock/autoname,
-/turf/open/floor/mineral/titanium/tiled,
+/turf/open/floor/mineral/titanium,
 /area/ruin/syndicate_lava_base/medbay)
 "EH" = (
 /obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/deckofficer,
@@ -1274,7 +1331,8 @@
 /area/ruin/syndicate_lava_base/main)
 "Gp" = (
 /obj/machinery/door/poddoor{
-	id = "interdynecargo"
+	id = "interdynecargo";
+	name = "Cargo Blast Door"
 	},
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /turf/open/floor/plating,
@@ -1492,7 +1550,7 @@
 /area/ruin/syndicate_lava_base/medbay)
 "LI" = (
 /obj/effect/baseturf_helper/lava_land/surface,
-/turf/open/floor/mineral/titanium/tiled,
+/turf/open/floor/mineral/titanium,
 /area/ruin/syndicate_lava_base/medbay)
 "Mm" = (
 /obj/machinery/door/firedoor,
@@ -1578,7 +1636,7 @@
 /area/ruin/syndicate_lava_base/main)
 "Oe" = (
 /obj/effect/turf_decal/trimline/dark/corner,
-/turf/open/floor/mineral/titanium/tiled,
+/turf/open/floor/mineral/titanium,
 /area/ruin/syndicate_lava_base/medbay)
 "On" = (
 /obj/effect/turf_decal/siding/wood{
@@ -1642,6 +1700,14 @@
 	dir = 1
 	},
 /area/ruin/syndicate_lava_base/main)
+"PS" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
+	},
+/obj/structure/table,
+/obj/machinery/xenoarch/recoverer,
+/turf/open/floor/mineral/plastitanium/red,
+/area/lavaland/surface/outdoors)
 "Qy" = (
 /obj/effect/turf_decal/trimline/dark_green/filled/line{
 	dir = 8
@@ -1761,6 +1827,9 @@
 "SO" = (
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
+"Th" = (
+/turf/open/floor/mineral/titanium,
+/area/ruin/syndicate_lava_base/medbay)
 "Tv" = (
 /obj/machinery/door/airlock/external,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
@@ -1805,8 +1874,7 @@
 /area/ruin/syndicate_lava_base/cargo)
 "Ux" = (
 /obj/structure/aquarium/prefilled,
-/obj/effect/turf_decal/tile/dark_green,
-/turf/open/floor/mineral/titanium/tiled,
+/turf/open/floor/mineral/titanium,
 /area/ruin/syndicate_lava_base/medbay)
 "UE" = (
 /obj/machinery/smartfridge/drinks,
@@ -1966,6 +2034,14 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/syndicate_lava_base/main)
+"XF" = (
+/obj/machinery/door/poddoor{
+	id = "interdynedeckofficer";
+	name = "Deck Officer Blast Doors"
+	},
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/cargo)
 "Yk" = (
 /obj/structure/table,
 /turf/open/floor/stone,
@@ -2619,7 +2695,7 @@ kQ
 kQ
 kQ
 kQ
-gG
+XF
 jM
 bN
 QH
@@ -2882,9 +2958,9 @@ AC
 AC
 PK
 AC
-wp
-wp
-wp
+yh
+yh
+yh
 AC
 PK
 AC
@@ -3044,7 +3120,7 @@ Cw
 ln
 no
 pN
-BA
+Th
 gn
 qP
 Vq
@@ -3116,10 +3192,10 @@ AC
 AC
 kQ
 kQ
-kQ
-kQ
-kQ
-kQ
+cA
+cA
+yL
+yL
 AC
 la
 XA
@@ -3162,7 +3238,7 @@ Gk
 xO
 IV
 pZ
-BA
+Th
 aq
 IV
 cX
@@ -3176,9 +3252,9 @@ kQ
 kQ
 kQ
 kQ
-kQ
-kQ
-kQ
+iv
+iv
+iv
 AC
 AC
 Cw
@@ -3221,7 +3297,7 @@ Cw
 ln
 IV
 Du
-BA
+Th
 Ux
 IV
 BA
@@ -3234,12 +3310,12 @@ kQ
 kQ
 kQ
 kQ
-kQ
-kQ
-kQ
-kQ
-kQ
-kQ
+gT
+iv
+iv
+iv
+iv
+fg
 Cw
 ln
 AC
@@ -3294,11 +3370,11 @@ kQ
 kQ
 kQ
 kQ
-kQ
-kQ
-kQ
-kQ
-kQ
+iv
+iv
+iv
+iv
+fg
 Cw
 ln
 AC
@@ -3352,12 +3428,12 @@ kQ
 kQ
 kQ
 kQ
-kQ
-kQ
-kQ
-kQ
-kQ
-kQ
+cA
+cA
+su
+uv
+PS
+cA
 kQ
 kQ
 kQ
@@ -3412,11 +3488,11 @@ kQ
 kQ
 kQ
 kQ
-kQ
-kQ
-kQ
-kQ
-kQ
+cA
+cA
+cA
+cA
+cA
 kQ
 kQ
 kQ

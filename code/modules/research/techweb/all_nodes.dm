@@ -1501,6 +1501,8 @@
 	prereq_ids = list("adv_engi", "biotech")
 	design_ids = list(
 		"biogenerator",
+//		"plantgenes",
+//		"diskplantgene",
 		"chem_dispenserbot",
 		"flora_gun",
 		//SKYRAT EDIT - ADDITION MEDIGUNS
@@ -1547,6 +1549,7 @@
 		"spkkit",
 		"G17kit",
 		"r84kit",
+		"implant_compliance"
 	)
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 1000)
 
@@ -1688,6 +1691,7 @@
 		"c38_hotshot",
 		"c38_iceblox",
 		"techshotshell",
+		"peppermag",
 		"g18k",
 		"ospreykit",
 	)

@@ -18,6 +18,14 @@
 	make_reagents = list(/datum/reagent/consumable/soymilk = 1)
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
 
+/datum/design/soysauce
+	name = "Soy Sauce"
+	id = "soysauce"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 0.4)
+	make_reagents = list(/datum/reagent/consumable/soysauce = 1)
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
 /datum/design/ethanol
 	name = "Ethanol"
 	id = "ethanol"
@@ -40,6 +48,22 @@
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 0.6)
 	make_reagents = list(/datum/reagent/consumable/blackpepper = 1)
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
+/datum/design/Salt
+	name = "Salt"
+	id = "salt"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 1)
+	make_reagents = list(/datum/reagent/consumable/salt = 1)
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
+/datum/design/bbq_sauce
+	name = "Barbecue sauce"
+	id = "bbq_sauce"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 5)
+	make_reagents = list(/datum/reagent/consumable/bbqsauce = 1)
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
 
 /datum/design/enzyme
@@ -66,6 +90,62 @@
 	make_reagents = list(/datum/reagent/consumable/sugar = 1)
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
 
+/datum/design/nakatispice
+	name = "Nakati Spice"
+	id = "nakatispice"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 2)
+	make_reagents = list(/datum/reagent/consumable/nakati_spice = 1)
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
+/datum/design/rootdough
+	name = "Root dough"
+	id = "rootdough"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 35)
+	build_path = /obj/item/food/rootdough
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
+/datum/design/rice
+	name = "Rice"
+	id = "rice"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 35)
+	build_path = /obj/item/food/uncooked_rice
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
+/datum/design/kortanut
+	name = "Korta nut"
+	id = "korta_nut"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 35)
+	build_path = /obj/item/food/grown/korta_nut
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
+/datum/design/kortasyrup
+	name = "Korta syrup/nectar"
+	id = "korta_syrup"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 5)
+	make_reagents = list(/datum/reagent/consumable/korta_nectar = 1)
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
+/datum/design/kortaflour
+	name = "Korta flour"
+	id = "korta_flour"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 5)
+	make_reagents = list(/datum/reagent/consumable/korta_flour = 1)
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
+/datum/design/kortamilk
+	name = "Korta milk"
+	id = "korta_milk"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 5)
+	make_reagents = list(/datum/reagent/consumable/korta_milk = 1)
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
 /datum/design/monkey_cube
 	name = "Monkey Cube"
 	id = "mcube"
@@ -74,12 +154,36 @@
 	build_path = /obj/item/food/monkeycube
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
 
+/datum/design/tortilla
+	name = "Tortilla"
+	id = "tortilla"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 5)
+	build_path = /obj/item/food/tortilla
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
 /datum/design/seaweed_sheet
 	name = "Seaweed Sheet"
 	id = "seaweedsheet"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 3)
 	build_path = /obj/item/food/seaweedsheet
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
+/datum/design/egg
+	name = "Egg"
+	id = "egg"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 15)
+	build_path = /obj/item/food/egg
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
+
+/datum/design/imitation_carp
+	name = "Imitation carp"
+	id = "imi_carp"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 50)
+	build_path = /obj/item/food/fishmeat/carp/imitation
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
 
 /datum/design/ez_nut   //easy nut :)
@@ -168,6 +272,14 @@
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 5)
 	build_path = /obj/item/stack/sheet/cardboard
+	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_MATERIALS)
+
+/datum/design/paper_sack
+	name = "Paper lunch sack"
+	id = "papersack"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass = 15)
+	build_path = /obj/item/storage/box/papersack
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_MATERIALS)
 
 /datum/design/paper

@@ -181,8 +181,35 @@
 
 /// - - - ANTAGONIST - - -
 /// SYNDICATE
+/// Basic syndicate gear, modsuits, doors, etcetera. Any syndicate faction or splinter cell will have this.
 #define ACCESS_SYNDICATE "syndicate"
+/// Advanced syndicate gear, Nuke Ops Leader, etc. Used sparingly.
 #define ACCESS_SYNDICATE_LEADER "syndicate_leader"
+/// Bioweapons Access.
+#define ACCESS_SYNDICATE_BIOWEAPONS "syndicate_bioweapons"
+/// BELOW IS ASSIGNABLE SYNDICATE ACCESS.
+/// Research Access, Cyborgs.
+#define ACCESS_SYNDICATE_RESEARCH "syndicate_research"
+/// Engineering Access, APCS and Air Alarms.
+#define ACCESS_SYNDICATE_ENGINEERING "syndicate_engineering"
+/// Medical Access, Defibrillator Mounts, Medibots
+#define ACCESS_SYNDICATE_MEDICAL "syndicate_medical"
+/// Security, Prison, Etcetera
+#define ACCESS_SYNDICATE_SECURITY "syndicate_security"
+/// Service. Just all of Service.
+#define ACCESS_SYNDICATE_SERVICE "syndicate_service"
+/// Cargo Access.
+#define ACCESS_SYNDICATE_CARGO "syndicate_cargo"
+/// HEADS OF STAFF
+/// Admiral's Office. RIP Bulldog Display Case
+#define ACCESS_SYNDICATE_ADMIRAL "syndicate_admiral"
+/// Corporate Liasion's Office, ID Console
+#define ACCESS_SYNDICATE_LIASION "syndicate_liasion"
+/// Master At Arms' Office.
+#define ACCESS_SYNDICATE_MAA "syndicate_maa"
+/// Deck Officer's Office.
+#define ACCESS_SYNDICATE_DO "syndicate_do"
+
 /// BLOODCULT
 	//Special, for anything that's basically internal
 #define ACCESS_BLOODCULT "bloodcult"
@@ -230,6 +257,10 @@
 #define ACCESS_FLAG_SPECIAL_NAME "Special"
 /// Bitflag for Special accesses that ordinaryily shouldn't be on ID cards. See CULT_ACCESS.
 #define ACCESS_FLAG_SPECIAL (1 << 7)
+/// Displayed name for (Safe) Syndicate ID card accesses.
+#define ACCESS_FLAG_SAFEDICATE_NAME "Syndicate"
+/// Bitflag for Syndicate ID card accesses. See SAFEDICATE_ACCESS.
+#define ACCESS_FLAG_SAFEDICATE (1 << 8)
 
 /// This wildcraft flag accepts any access level.
 #define WILDCARD_FLAG_ALL ALL
@@ -256,7 +287,7 @@
 /// Name associated with the centcom wildcard bitflag.
 #define WILDCARD_NAME_CENTCOM ACCESS_FLAG_CENTCOM_NAME
 /// Access flags that can be applied to syndicate wildcard slots.
-#define WILDCARD_FLAG_SYNDICATE ACCESS_FLAG_COMMON | ACCESS_FLAG_COMMAND | ACCESS_FLAG_PRV_COMMAND | ACCESS_FLAG_CAPTAIN | ACCESS_FLAG_SYNDICATE
+#define WILDCARD_FLAG_SYNDICATE ACCESS_FLAG_COMMON | ACCESS_FLAG_COMMAND | ACCESS_FLAG_PRV_COMMAND | ACCESS_FLAG_CAPTAIN | ACCESS_FLAG_SYNDICATE | ACCESS_FLAG_SAFEDICATE
 /// Name associated with the syndicate wildcard bitflag.
 #define WILDCARD_NAME_SYNDICATE ACCESS_FLAG_SYNDICATE_NAME
 /// Access flags that can be applied to offstation wildcard slots.
@@ -375,6 +406,21 @@
 #define SYNDICATE_ACCESS list( \
 	ACCESS_SYNDICATE, \
 	ACCESS_SYNDICATE_LEADER, \
+	ACCESS_SYNDICATE_BIOWEAPONS, \
+)
+
+/// Access for Syndicate Installations we genuinely want non-antagonists running around. Do not use direct, access via SSid_access.get_flag_access_list(ACCESS_FLAG_SAFEDICATE)
+#define SAFEDICATE_ACCESS list( \
+	ACCESS_SYNDICATE_RESEARCH, \
+	ACCESS_SYNDICATE_ENGINEERING, \
+	ACCESS_SYNDICATE_MEDICAL, \
+	ACCESS_SYNDICATE_SECURITY, \
+	ACCESS_SYNDICATE_SERVICE, \
+	ACCESS_SYNDICATE_CARGO, \
+	ACCESS_SYNDICATE_ADMIRAL, \
+	ACCESS_SYNDICATE_LIASION, \
+	ACCESS_SYNDICATE_MAA, \
+	ACCESS_SYNDICATE_DO, \
 )
 
 /// Away missions/gateway/space ruins.  Do not use direct, access via SSid_access.get_flag_access_list(ACCESS_FLAG_AWAY)
@@ -514,6 +560,11 @@
 #define REGION_CENTCOM "Central Command"
 /// Used to seed the accesses_by_region list in SSid_access. A list of all CENTCOM_ACCESS regional accesses.
 #define REGION_ACCESS_CENTCOM CENTCOM_ACCESS
+
+/// Name for the "Safedicate" region, used mostly by Interdyne at the moment.
+#define REGION_SAFEDICATE "Syndicate"
+/// Used to seed the accesses_by_region list in SSid_access. A list of all SAFEDICATE_ACCESS regional accesses.
+#define REGION_ACCESS_SAFEDICATE SAFEDICATE_ACCESS
 
 /**
  * A list of PDA paths that can be painted as well as the regional heads which should be able to paint them.

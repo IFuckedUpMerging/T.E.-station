@@ -92,6 +92,10 @@ SUBSYSTEM_DEF(id_access)
 	for(var/access in accesses_by_flag["[ACCESS_FLAG_SYNDICATE]"])
 		flags_by_access |= list("[access]" = ACCESS_FLAG_SYNDICATE)
 
+	accesses_by_flag["[ACCESS_FLAG_SAFEDICATE]"] = SAFEDICATE_ACCESS
+	for(var/access in accesses_by_flag["[ACCESS_FLAG_SAFEDICATE]"])
+		flags_by_access |= list("[access]" = ACCESS_FLAG_SAFEDICATE)
+
 	accesses_by_flag["[ACCESS_FLAG_AWAY]"] = AWAY_ACCESS
 	for(var/access in accesses_by_flag["[ACCESS_FLAG_AWAY]"])
 		flags_by_access |= list("[access]" = ACCESS_FLAG_AWAY)
@@ -106,6 +110,7 @@ SUBSYSTEM_DEF(id_access)
 	access_flag_string_by_flag["[ACCESS_FLAG_CAPTAIN]"] = ACCESS_FLAG_CAPTAIN_NAME
 	access_flag_string_by_flag["[ACCESS_FLAG_CENTCOM]"] = ACCESS_FLAG_CENTCOM_NAME
 	access_flag_string_by_flag["[ACCESS_FLAG_SYNDICATE]"] = ACCESS_FLAG_SYNDICATE_NAME
+	access_flag_string_by_flag["[ACCESS_FLAG_SAFEDICATE]"] = ACCESS_FLAG_SAFEDICATE_NAME
 	access_flag_string_by_flag["[ACCESS_FLAG_AWAY]"] = ACCESS_FLAG_AWAY_NAME
 	access_flag_string_by_flag["[ACCESS_FLAG_SPECIAL]"] = ACCESS_FLAG_SPECIAL_NAME
 

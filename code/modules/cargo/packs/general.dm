@@ -189,6 +189,15 @@
 	crate_name = "coffin"
 	crate_type = /obj/structure/closet/crate/coffin
 
+/datum/supply_pack/misc/wargame
+	name = "Wargame supply crate"
+	desc = "A fun multipurpose wargame."
+	cost = CARGO_CRATE_VALUE * 1.6
+//	access_view = ACCESS_CHAPEL_OFFICE
+	contains = list(/obj/item/storage/secure/briefcase/white/wargame_kit)
+	crate_name = "wargame crate"
+	crate_type = /obj/structure/closet/crate
+
 /datum/supply_pack/misc/empty
 	name = "Empty Supplypod"
 	desc = "Presenting the New Nanotrasen-Brand Bluespace Supplypod! Transport cargo with grace and ease! \

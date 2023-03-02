@@ -515,6 +515,14 @@
 	},
 /turf/open/floor/iron/kitchen,
 /area/ruin/syndicate_lava_base/bar)
+"dn" = (
+/obj/docking_port/stationary{
+	dir = 4;
+	name = "Planetary Installation";
+	shuttle_id = "dsdrop_alpha_away"
+	},
+/turf/open/lava/plasma/ice_moon,
+/area/icemoon/underground/explored)
 "dp" = (
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 8
@@ -7237,7 +7245,7 @@ ab
 ab
 ab
 ab
-ab
+dn
 ab
 ab
 ab

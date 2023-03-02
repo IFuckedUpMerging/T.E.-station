@@ -197,3 +197,41 @@
 /datum/map_template/shuttle/ruin/tarkon_driver/defcon2
 	suffix = "tarkon_driverdc2"
 /*----- End of Tarkon Shuttle Code -----*/
+
+/*----- DS-2 Dropship Shuttle Datum + related code -----*/
+/datum/map_template/shuttle/ruin/ds2dropship
+	prefix = "_maps/shuttles/skyrat/"
+	suffix = "dsdrop_alpha"
+	name = "Dropship Alpha"
+
+/obj/machinery/computer/shuttle/ds2dropship
+	name = "Dropship Shuttle Console"
+	desc = "Used to control the dropship."
+	circuit = /obj/item/circuitboard/computer/ds2dropship
+	icon_screen = "syndishuttle"
+	icon_keyboard = "syndie_key"
+	light_color = COLOR_SOFT_RED
+	req_access = list(ACCESS_SYNDICATE)
+	shuttleId = "dsdrop_alpha"
+	possible_destinations = "dsdrop_alpha_custom;dsdrop_alpha_home;dsdrop_alpha_away;whiteship_home"
+
+/obj/machinery/computer/camera_advanced/shuttle_docker/ds2dropship
+	name = "Droship Navigation Computer"
+	desc = "Used to designate a precise transit location for the dropship."
+	shuttleId = "dsdrop_alpha"
+	lock_override = NONE
+	icon_screen = "syndishuttle"
+	icon_keyboard = "syndie_key"
+	whitelist_turfs = list(/turf/open/space, /turf/open/floor/plating, /turf/open/lava, /turf/closed/mineral, /turf/open/openspace, /turf/open/misc)
+	see_hidden = TRUE
+	shuttlePortId = "dsdrop_alpha_custom"
+	jump_to_ports = list("dsdrop_alpha_home" = 1, "whiteship_home" = 1)
+
+/obj/item/circuitboard/computer/ds2dropship
+	name = "Dropship Shuttle Console (Computer Board)"
+	build_path = /obj/machinery/computer/shuttle/ds2dropship
+
+/obj/item/circuitboard/computer/ds2dropship_nav
+	name = "Dropship Navigation Console (Computer Board)"
+	build_path = /obj/machinery/computer/camera_advanced/shuttle_docker/ds2dropship
+/*----- End of DS-2 Dropship Shuttle Code -----*/

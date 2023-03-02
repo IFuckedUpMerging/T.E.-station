@@ -10430,10 +10430,9 @@
 "TB" = (
 /obj/docking_port/stationary{
 	dir = 4;
-	dwidth = 5;
-	height = 8;
 	name = "DS-2 Hangar";
-	width = 11
+	roundstart_template = /datum/map_template/shuttle/ruin/ds2dropship;
+	shuttle_id = "dsdrop_alpha_home"
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/skyrat/interdynefob/cargo/hangar)
@@ -14178,7 +14177,7 @@ eH
 Tp
 Tp
 iz
-TB
+nm
 ba
 Tp
 Tp
@@ -14233,7 +14232,7 @@ HD
 QG
 nm
 nm
-nm
+TB
 nm
 nm
 fc

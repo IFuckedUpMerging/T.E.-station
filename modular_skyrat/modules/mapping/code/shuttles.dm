@@ -197,3 +197,15 @@
 /datum/map_template/shuttle/ruin/tarkon_driver/defcon2
 	suffix = "tarkon_driverdc2"
 /*----- End of Tarkon Shuttle Code -----*/
+
+/datum/map_template/shuttle/arrival/holestation
+	suffix = "holestation"
+	name = "arrival shuttle (Holestation)"
+
+/datum/map_template/shuttle/cargo/holestation
+	suffix = "holestation"
+	name = "cargo ferry (Holestation)"
+
+/datum/map_template/shuttle/mining/holestation
+	suffix = "holestation"
+	name = "mining shuttle (Holestation)"

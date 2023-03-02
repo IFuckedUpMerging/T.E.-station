@@ -19,3 +19,23 @@
 	desc = "Extremely sturdy exterior hull plating that separates you from the uncaring vacuum of space."
 	icon_state = "reinforced_hull"
 	heat_capacity = INFINITY
+
+/turf/open/floor/engine/hull/ocean/Initialize(mapload)
+	. = ..()
+	if(liquids)
+		if(liquids.immutable)
+			liquids.remove_turf(src)
+		else
+			qdel(liquids, TRUE)
+	var/obj/effect/abstract/liquid_turf/immutable/new_immmutable = SSliquids.get_immutable(/obj/effect/abstract/liquid_turf/immutable/ocean)
+	new_immmutable.add_turf(src)
+
+/turf/open/floor/engine/hull/reinforced/ocean/Initialize(mapload)
+	. = ..()
+	if(liquids)
+		if(liquids.immutable)
+			liquids.remove_turf(src)
+		else
+			qdel(liquids, TRUE)
+	var/obj/effect/abstract/liquid_turf/immutable/new_immmutable = SSliquids.get_immutable(/obj/effect/abstract/liquid_turf/immutable/ocean)
+	new_immmutable.add_turf(src)

@@ -442,7 +442,7 @@
 /area/station/engineering/supermatter)
 "bN" = (
 /obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/ocean_plating,
 /area/station/maintenance/port/aft)
 "bP" = (
 /obj/effect/turf_decal/tile/yellow,
@@ -2125,7 +2125,7 @@
 /area/ocean/trench/generated)
 "iw" = (
 /obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/ocean_plating,
 /area/ocean)
 "iy" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
@@ -2447,7 +2447,7 @@
 /turf/open/floor/iron/dark,
 /area/station/service/theater)
 "jT" = (
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/ocean_plating,
 /area/ocean/trench/generated)
 "jU" = (
 /turf/open/floor/iron/dark/textured,
@@ -4635,7 +4635,7 @@
 /area/station/engineering/supermatter)
 "sa" = (
 /obj/structure/window/reinforced/spawner/north,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/ocean_plating,
 /area/station/maintenance/starboard/aft)
 "sb" = (
 /obj/effect/spawner/structure/window,
@@ -7127,7 +7127,7 @@
 /turf/open/floor/glass/reinforced,
 /area/station/command/bridge)
 "Bb" = (
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/ocean_plating,
 /area/ocean)
 "Bd" = (
 /obj/structure/table,
@@ -9958,7 +9958,7 @@
 /area/station/engineering/engine_smes)
 "LU" = (
 /obj/structure/window/reinforced/spawner/north,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/ocean_plating,
 /area/station/maintenance/port/aft)
 "LV" = (
 /obj/structure/window/reinforced/spawner/west,
@@ -10620,7 +10620,7 @@
 /area/station/command/bridge)
 "Oz" = (
 /obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/ocean_plating,
 /area/station/maintenance/starboard/aft)
 "OA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -11261,7 +11261,7 @@
 "QO" = (
 /obj/effect/turf_decal/stripes/box,
 /obj/structure/cable/multilayer/multiz,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/ocean_plating,
 /area/ocean)
 "QQ" = (
 /obj/machinery/light/directional/east,

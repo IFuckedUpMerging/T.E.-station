@@ -613,6 +613,16 @@
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
+/datum/design/board/bulletdrive
+	name = "Bullet Drive Board"
+	desc = "The circuit board for a Bullet Drive."
+	id = "bulletdrive"
+	build_path = /obj/item/circuitboard/machine/dish_drive/bullet
+	category = list(
+		RND_CATEGORY_MACHINE + RND_SUBCATEGORY_MACHINE_SECURITY
+	)
+	departmental_flags = DEPARTMENT_BITFLAG_SECURITY | DEPARTMENT_BITFLAG_ENGINEERING
+
 /datum/design/board/vendor
 	name = "Vendor Board"
 	desc = "The circuit board for a Vendor."
@@ -673,6 +683,26 @@
 		RND_CATEGORY_MACHINE + RND_SUBCATEGORY_MACHINE_TELECOMMS
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
+
+/datum/design/board/sleeper
+	name = "Sleeper Board"
+	desc = "The circuit board for a sleeper."
+	id = "sleeper"
+	build_path = /obj/item/circuitboard/machine/sleeper
+	category = list(
+		RND_CATEGORY_MACHINE + RND_SUBCATEGORY_MACHINE_MEDICAL
+	)
+	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
+
+/datum/design/board/syndiesleeper
+	name = "Syndicate Sleeper Board"
+	desc = "The circuit board for a syndicate sleeper."
+	id = "syndsleeper"
+	build_path = /obj/item/circuitboard/machine/sleeper/syndicate
+	category = list(
+		RND_CATEGORY_MACHINE + RND_SUBCATEGORY_MACHINE_MEDICAL
+	)
+	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/board/limbgrower
 	name = "Limb Grower Board"

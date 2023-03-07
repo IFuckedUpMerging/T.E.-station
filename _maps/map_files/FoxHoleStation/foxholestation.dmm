@@ -1305,6 +1305,9 @@
 /obj/machinery/suit_storage_unit/standard_unit,
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/hop)
+"fa" = (
+/turf/open/misc/asteroid/airless,
+/area/space)
 "fb" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
 /obj/effect/landmark/blobstart,
@@ -9746,6 +9749,17 @@
 /obj/machinery/airalarm/directional/south,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/hop)
+"Le" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 8
+	},
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/plating/airless,
+/area/space)
 "Lf" = (
 /obj/structure/sign/departments/cargo{
 	pixel_y = 32
@@ -10061,8 +10075,14 @@
 /turf/open/floor/plating,
 /area/station/engineering/main)
 "Mr" = (
-/obj/structure/lattice,
-/turf/open/space/basic,
+/obj/effect/turf_decal/sand/plating,
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
 /area/space)
 "Ms" = (
 /obj/machinery/airalarm/directional/west,
@@ -10754,7 +10774,7 @@
 	name = "Cargo Bay";
 	width = 11
 	},
-/turf/open/space/basic,
+/turf/open/misc/asteroid/airless,
 /area/space)
 "Pe" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -12364,7 +12384,7 @@
 	roundstart_template = /datum/map_template/shuttle/mining/holestation;
 	width = 3
 	},
-/turf/open/space/basic,
+/turf/open/misc/asteroid/airless,
 /area/space)
 "Vd" = (
 /turf/open/floor/iron/dark,
@@ -44068,12 +44088,12 @@ gb
 Ra
 nS
 yW
-gI
-gI
-gI
-gI
-gI
-gI
+fa
+fa
+fa
+fa
+fa
+fa
 MF
 Qf
 nk
@@ -44325,12 +44345,12 @@ nY
 yc
 VD
 yW
-gI
-gI
-gI
-gI
-gI
-gI
+fa
+fa
+fa
+fa
+fa
+fa
 MF
 yr
 WS
@@ -44582,12 +44602,12 @@ yW
 yW
 CH
 yW
-gI
-gI
-gI
-gI
-gI
-gI
+fa
+fa
+fa
+fa
+fa
+fa
 eC
 yM
 WS
@@ -44839,12 +44859,12 @@ id
 gz
 Zp
 OI
-gI
-gI
-gI
-gI
-gI
-gI
+fa
+fa
+fa
+fa
+fa
+fa
 TU
 LH
 WS
@@ -45096,11 +45116,11 @@ Gz
 JX
 ZD
 Yc
-gI
-gI
-gI
-gI
-gI
+fa
+fa
+fa
+fa
+fa
 Pd
 WW
 WS
@@ -45353,12 +45373,12 @@ dX
 mv
 UQ
 OI
-gI
-gI
-gI
-gI
-gI
-gI
+fa
+fa
+fa
+fa
+fa
+fa
 eC
 mM
 ym
@@ -45610,12 +45630,12 @@ uq
 CZ
 ZD
 Yc
-gI
-gI
-gI
-gI
-gI
-gI
+fa
+fa
+fa
+fa
+fa
+fa
 WW
 WS
 WS
@@ -45867,12 +45887,12 @@ bm
 gz
 BB
 OI
-gI
-gI
-gI
-gI
-gI
-gI
+fa
+fa
+fa
+fa
+fa
+fa
 Rt
 iz
 WS
@@ -46124,12 +46144,12 @@ Lx
 Lx
 lG
 Lx
-gI
-gI
-gI
-gI
-gI
-gI
+fa
+fa
+fa
+fa
+fa
+fa
 eC
 pw
 WS
@@ -46381,12 +46401,12 @@ Lx
 PY
 Rw
 Lx
-gI
-gI
-gI
-gI
-gI
-gI
+fa
+fa
+fa
+fa
+fa
+fa
 MF
 pN
 yH
@@ -46638,12 +46658,12 @@ Lx
 pD
 KP
 Lx
-gI
-gI
-gI
-gI
-gI
-gI
+fa
+fa
+fa
+fa
+fa
+fa
 MF
 MH
 WQ
@@ -46897,10 +46917,10 @@ mh
 Kn
 dW
 Kn
+Le
 Mr
 Mr
-Mr
-Mr
+Le
 SH
 SH
 SH
@@ -47154,10 +47174,10 @@ wm
 Kn
 Wk
 Kn
-gI
-gI
-gI
-gI
+fa
+fa
+fa
+fa
 SH
 VT
 jt
@@ -47411,9 +47431,9 @@ uZ
 qs
 UO
 Kn
-gI
-gI
-gI
+fa
+fa
+fa
 Vc
 Gd
 Qj
@@ -47668,10 +47688,10 @@ cw
 Kn
 dL
 Kn
-gI
-gI
-gI
-gI
+fa
+fa
+fa
+fa
 SH
 xn
 XH

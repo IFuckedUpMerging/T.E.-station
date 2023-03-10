@@ -2484,7 +2484,7 @@
 "ju" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/marker_beacon/burgundy,
-/turf/open/openspace/ocean,
+/turf/open/space/openspace,
 /area/space)
 "jz" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible/layer5,
@@ -6966,7 +6966,7 @@
 /area/station/engineering/atmos)
 "zG" = (
 /obj/effect/landmark/carpspawn,
-/turf/open/openspace/ocean,
+/turf/open/space/openspace,
 /area/space)
 "zH" = (
 /obj/structure/window/reinforced/spawner/west,
@@ -7325,7 +7325,7 @@
 /area/station/science/lower)
 "AL" = (
 /obj/structure/lattice/catwalk,
-/turf/open/openspace/ocean,
+/turf/open/space/openspace,
 /area/space)
 "AM" = (
 /obj/effect/turf_decal/trimline/white/warning{
@@ -7602,7 +7602,7 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/station/cargo/storage)
 "BO" = (
-/turf/open/openspace/ocean,
+/turf/open/space/openspace,
 /area/space/nearstation)
 "BP" = (
 /obj/machinery/telecomms/message_server/preset,
@@ -7961,7 +7961,7 @@
 /area/station/maintenance/port/aft)
 "Dh" = (
 /obj/effect/spawner/random/structure/grille,
-/turf/open/openspace/ocean,
+/turf/open/space/openspace,
 /area/space)
 "Di" = (
 /obj/effect/landmark/start/station_engineer,
@@ -8465,7 +8465,7 @@
 /area/station/service/theater)
 "Fd" = (
 /obj/structure/lattice,
-/turf/open/openspace/ocean,
+/turf/open/space/openspace,
 /area/space)
 "Fe" = (
 /obj/effect/turf_decal/delivery,
@@ -8561,7 +8561,7 @@
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "Fw" = (
-/turf/open/openspace/ocean,
+/turf/open/space/openspace,
 /area/space)
 "Fx" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -10901,7 +10901,7 @@
 /area/station/service/library/upper)
 "NR" = (
 /obj/machinery/power/shuttle_engine/large,
-/turf/open/openspace/ocean,
+/turf/open/space/openspace,
 /area/space/nearstation)
 "NS" = (
 /turf/closed/wall,
@@ -11486,7 +11486,7 @@
 "PW" = (
 /obj/structure/lattice,
 /obj/effect/spawner/random/structure/grille,
-/turf/open/openspace/ocean,
+/turf/open/space/openspace,
 /area/space)
 "PX" = (
 /obj/effect/turf_decal/stripes/line{

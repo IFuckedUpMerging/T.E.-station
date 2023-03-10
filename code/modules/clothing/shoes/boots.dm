@@ -6,6 +6,7 @@
 	armor = list(MELEE = 25, BULLET = 25, LASER = 25, ENERGY = 25, BOMB = 50, BIO = 90, FIRE = 70, ACID = 50)
 	strip_delay = 40
 	resistance_flags = NONE
+	clothing_flags = NOSLIP
 	lace_time = 12 SECONDS
 
 /obj/item/clothing/shoes/combat/Initialize(mapload)
@@ -16,7 +17,6 @@
 /obj/item/clothing/shoes/combat/swat //overpowered boots for death squads
 	name = "\improper SWAT boots"
 	desc = "High speed, no drag combat boots."
-	clothing_flags = NOSLIP
 	armor = list(MELEE = 40, BULLET = 30, LASER = 25, ENERGY = 25, BOMB = 50, BIO = 100, FIRE = 90, ACID = 50)
 
 /obj/item/clothing/shoes/jackboots
@@ -39,6 +39,7 @@
 	slowdown = -1
 
 /obj/item/clothing/shoes/jackboots/sec
+	clothing_flags = NOSLIP // THE BLUE HELMETS ARE EVOLVING
 	icon_state = "jackboots_sec"
 
 /obj/item/clothing/shoes/winterboots
@@ -123,3 +124,16 @@
 	desc = "A crisp, clean set of boots for working long hours on the beat."
 	icon_state = "aerostatic_boots"
 	inhand_icon_state = null
+
+/obj/item/clothing/shoes/wb32/seal//The AI watches, it supplies.
+	name = "WB-32 Brand Combat Boots"
+	desc = "A set of reinforced, low-drag boots, high traction boots. Intended for the messiest of environments."
+	icon = 'icons/mob/clothing/feet.dmi'
+	icon_state = "wb32_combatboots"
+	inhand_icon_state = "jackboots"
+	armor = list(MELEE = 45, BULLET = 45, LASER = 45, ENERGY = 45, BOMB = 50, BIO = 100, FIRE = 100, ACID = 100)
+	strip_delay = 40
+	resistance_flags = FIRE_PROOF | ACID_PROOF
+	clothing_flags = NOSLIP|NOSLIP_ICE|THICKMATERIAL
+	lace_time = 160 SECONDS // Imagine being able to lay down next to this dude for 160 seconds just to unlace it. If they don't notice you doing it, you deserve it man.
+	supports_variations_flags = NONE

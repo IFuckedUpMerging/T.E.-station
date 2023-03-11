@@ -84,6 +84,7 @@
 /obj/structure/chair/office{
 	dir = 8
 	},
+/obj/effect/landmark/start/warden,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/warden)
 "aw" = (
@@ -197,6 +198,7 @@
 /area/station/maintenance/port/greater)
 "aN" = (
 /obj/machinery/firealarm/directional/north,
+/obj/effect/landmark/start/security_officer,
 /turf/open/floor/iron,
 /area/station/security/office)
 "aP" = (
@@ -1152,6 +1154,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/airlock/access/all/security/general,
+/obj/effect/turf_decal/siding/red,
 /turf/open/floor/iron/showroomfloor,
 /area/station/security/brig)
 "em" = (
@@ -1312,6 +1315,10 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
+"eM" = (
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron/showroomfloor,
+/area/station/security/brig)
 "eN" = (
 /turf/open/floor/engine/hull/reinforced,
 /area/space)
@@ -1451,6 +1458,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/diagonal,
 /area/station/security/office)
+"fl" = (
+/obj/structure/rack,
+/turf/open/floor/iron/showroomfloor,
+/area/station/security/brig)
 "fn" = (
 /turf/closed/wall,
 /area/station/security/prison/safe)
@@ -1774,6 +1785,11 @@
 	dir = 1
 	},
 /area/station/command/bridge)
+"gG" = (
+/obj/effect/turf_decal/tile/red/opposingcorners,
+/obj/effect/landmark/start/security_medic,
+/turf/open/floor/iron/showroomfloor,
+/area/station/security/brig)
 "gH" = (
 /turf/closed/wall/r_wall,
 /area/station/engineering/supermatter)
@@ -2053,7 +2069,10 @@
 "hD" = (
 /obj/structure/cable,
 /obj/structure/stairs/west,
-/turf/open/floor/iron,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plating,
 /area/station/security/brig)
 "hE" = (
 /obj/effect/turf_decal/delivery,
@@ -2433,6 +2452,7 @@
 /obj/structure/chair/office{
 	dir = 4
 	},
+/obj/effect/landmark/start/security_officer,
 /turf/open/floor/iron/dark/side{
 	dir = 4
 	},
@@ -2501,6 +2521,7 @@
 /area/station/command/heads_quarters/hos)
 "jk" = (
 /obj/effect/turf_decal/siding/red,
+/obj/effect/landmark/start/security_officer,
 /turf/open/floor/iron,
 /area/station/security/office)
 "jl" = (
@@ -3875,6 +3896,24 @@
 /obj/effect/landmark/navigate_destination/engineering,
 /turf/open/floor/iron,
 /area/station/engineering/break_room)
+"oo" = (
+/obj/structure/window/spawner/east,
+/obj/effect/turf_decal/siding/red{
+	dir = 4
+	},
+/obj/structure/table/glass,
+/obj/item/clothing/gloves/color/latex,
+/obj/item/healthanalyzer,
+/obj/item/reagent_containers/spray/cleaner{
+	pixel_x = -3;
+	pixel_y = 2
+	},
+/obj/item/reagent_containers/spray/cleaner{
+	pixel_x = 5;
+	pixel_y = -1
+	},
+/turf/open/floor/iron/showroomfloor,
+/area/station/security/brig)
 "op" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -6624,7 +6663,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/landmark/navigate_destination/sec,
-/turf/open/floor/iron,
+/turf/open/floor/catwalk_floor/iron,
 /area/station/security/brig)
 "yc" = (
 /obj/structure/closet/secure_closet/hydroponics,
@@ -6734,6 +6773,14 @@
 /obj/machinery/camera/autoname/directional/west,
 /turf/open/openspace,
 /area/station/engineering/atmos)
+"yy" = (
+/obj/structure/window/spawner/east,
+/obj/effect/turf_decal/siding/red{
+	dir = 4
+	},
+/obj/structure/closet/secure_closet/security_medic,
+/turf/open/floor/iron/showroomfloor,
+/area/station/security/brig)
 "yz" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -7527,6 +7574,16 @@
 "Bb" = (
 /turf/open/floor/plating/airless,
 /area/space)
+"Bc" = (
+/obj/structure/bed{
+	dir = 1
+	},
+/obj/item/bedsheet/medical{
+	dir = 4
+	},
+/obj/machinery/iv_drip,
+/turf/open/floor/iron/showroomfloor,
+/area/station/security/brig)
 "Bd" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
@@ -7866,6 +7923,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
+/obj/effect/landmark/start/security_officer,
 /turf/open/floor/iron,
 /area/station/security/office)
 "Cw" = (
@@ -10022,6 +10080,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
+/obj/effect/landmark/start/security_officer,
 /turf/open/floor/iron,
 /area/station/security/office)
 "Kl" = (
@@ -10807,6 +10866,7 @@
 /obj/structure/chair/office{
 	dir = 1
 	},
+/obj/effect/landmark/start/head_of_security,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/hos)
 "MU" = (
@@ -12598,6 +12658,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
+"TD" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron,
+/area/station/security/brig)
 "TE" = (
 /obj/machinery/door/airlock/public/glass,
 /obj/effect/turf_decal/siding/wood{
@@ -12667,7 +12733,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/holopad,
-/turf/open/floor/iron,
+/turf/open/floor/iron/large,
 /area/station/security/brig)
 "TN" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
@@ -13274,6 +13340,7 @@
 /turf/open/floor/iron/smooth,
 /area/station/construction/mining/aux_base)
 "VX" = (
+/obj/effect/landmark/start/security_officer,
 /turf/open/floor/iron,
 /area/station/security/office)
 "VY" = (
@@ -13644,6 +13711,17 @@
 	},
 /turf/open/floor/engine/hull,
 /area/space)
+"Xx" = (
+/obj/structure/window/spawner/east,
+/obj/effect/turf_decal/siding/red{
+	dir = 4
+	},
+/obj/structure/table/glass,
+/obj/machinery/computer/med_data/laptop{
+	dir = 8
+	},
+/turf/open/floor/iron/showroomfloor,
+/area/station/security/brig)
 "Xy" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -39928,9 +40006,9 @@ zr
 Ui
 eb
 yq
-AW
-AW
-AW
+Bc
+Bc
+fl
 vj
 vj
 vj
@@ -40185,8 +40263,8 @@ IM
 JA
 qd
 yq
-AW
-AW
+eM
+gG
 AW
 el
 rQ
@@ -40442,9 +40520,9 @@ IM
 LY
 hP
 vj
-AW
-AW
-AW
+Xx
+oo
+yy
 vj
 eK
 hD
@@ -40958,7 +41036,7 @@ hP
 bR
 yb
 TM
-kK
+TD
 DF
 kK
 kK

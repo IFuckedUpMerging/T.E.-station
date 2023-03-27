@@ -226,7 +226,14 @@
 /area/station/security/office)
 "aO" = (
 /obj/structure/table,
-/obj/item/storage/box/lights/mixed,
+/obj/item/storage/box/lights/mixed{
+	pixel_y = 10;
+	pixel_x = -5
+	},
+/obj/item/clothing/gloves/color/blue,
+/obj/item/clothing/gloves/botanic_leather{
+	pixel_y = -3
+	},
 /turf/open/floor/iron/diagonal,
 /area/space)
 "aP" = (
@@ -4434,6 +4441,11 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/station/maintenance/port/aft)
+"pm" = (
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/space)
 "pn" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 4
@@ -7999,16 +8011,10 @@
 /turf/open/floor/iron,
 /area/station/science/lower)
 "Be" = (
-/obj/structure/rack,
-/obj/item/clothing/gloves/botanic_leather,
-/obj/item/clothing/gloves/color/blue,
-/obj/item/clothing/suit/caution,
-/obj/item/clothing/suit/caution,
-/obj/item/clothing/suit/caution,
-/obj/item/clothing/suit/caution,
-/obj/item/storage/bag/trash,
-/obj/item/pushbroom,
-/turf/open/floor/iron/diagonal,
+/obj/effect/turf_decal/siding/dark_blue{
+	dir = 8
+	},
+/turf/open/floor/iron,
 /area/space)
 "Bg" = (
 /obj/effect/turf_decal/bot_blue,
@@ -8270,6 +8276,9 @@
 "Cg" = (
 /obj/structure/mop_bucket/janitorialcart{
 	dir = 4
+	},
+/obj/item/storage/bag/trash{
+	pixel_x = 3
 	},
 /turf/open/floor/iron/diagonal,
 /area/space)
@@ -11131,6 +11140,11 @@
 /obj/machinery/power/apc/auto_name/directional/west,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/captain)
+"LJ" = (
+/obj/structure/table,
+/obj/item/pushbroom,
+/turf/open/floor/iron/diagonal,
+/area/space)
 "LL" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible{
 	dir = 9
@@ -13099,11 +13113,27 @@
 /turf/open/floor/wood,
 /area/station/maintenance/port/aft)
 "Sv" = (
-/obj/structure/table,
 /obj/item/reagent_containers/cup/bucket,
 /obj/item/reagent_containers/cup/bucket,
 /obj/item/mop,
 /obj/item/mop,
+/obj/structure/rack/shelf,
+/obj/item/clothing/suit/caution{
+	pixel_x = 5;
+	pixel_y = -7
+	},
+/obj/item/clothing/suit/caution{
+	pixel_x = 5;
+	pixel_y = -7
+	},
+/obj/item/clothing/suit/caution{
+	pixel_x = 5;
+	pixel_y = -7
+	},
+/obj/item/clothing/suit/caution{
+	pixel_x = 5;
+	pixel_y = -7
+	},
 /turf/open/floor/iron/diagonal,
 /area/space)
 "Sw" = (
@@ -103059,7 +103089,7 @@ ps
 ps
 ps
 Gg
-ng
+LJ
 ng
 ng
 Qv
@@ -103316,8 +103346,8 @@ rK
 Rx
 ps
 Gg
-ng
-ng
+PL
+PL
 Be
 Qv
 Fw
@@ -103573,8 +103603,8 @@ fV
 am
 ps
 Gg
-PL
-PL
+Ew
+Ew
 fs
 fs
 fs
@@ -104604,10 +104634,10 @@ Ng
 Ew
 Ew
 OW
-Fw
-Fw
-Fw
-Fw
+pm
+pm
+pm
+pm
 Fw
 Fw
 Fw
@@ -104861,10 +104891,10 @@ fs
 Ew
 Ew
 OW
-Fw
-Fw
-Fw
-Fw
+pm
+pm
+pm
+pm
 Fw
 Fw
 Fw
@@ -105891,8 +105921,8 @@ HL
 Qv
 Qv
 Qv
-pz
-pz
+Qv
+Qv
 ei
 ei
 ei

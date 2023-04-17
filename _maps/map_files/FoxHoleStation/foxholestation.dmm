@@ -2715,6 +2715,12 @@
 /area/station/science/genetics)
 "io" = (
 /obj/machinery/light/directional/south,
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/purple/mid_joiner{
+	dir = 4
+	},
 /turf/open/floor/iron/white/smooth_half{
 	dir = 1
 	},
@@ -5520,6 +5526,12 @@
 /turf/open/floor/wood,
 /area/station/service/library)
 "rq" = (
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/purple/mid_joiner{
+	dir = 4
+	},
 /turf/open/floor/iron/white/smooth_half{
 	dir = 1
 	},
@@ -12718,6 +12730,12 @@
 /area/station/service/cafeteria)
 "NL" = (
 /obj/item/kirbyplants/random,
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/purple/mid_joiner{
+	dir = 4
+	},
 /turf/open/floor/iron/white/smooth_large,
 /area/station/science/lower)
 "NM" = (

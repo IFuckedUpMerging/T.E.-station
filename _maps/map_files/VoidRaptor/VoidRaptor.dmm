@@ -1468,6 +1468,17 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/station/engineering/atmos/pumproom)
+"auL" = (
+/obj/machinery/duct,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/sleeper{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/blue{
+	dir = 5
+	},
+/turf/open/floor/iron/white/diagonal,
+/area/station/medical/medbay/central)
 "auP" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 1
@@ -23295,9 +23306,6 @@
 /obj/effect/landmark/start/atmospheric_technician,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/engineering/atmos/hfr_room)
-"gKa" = (
-/turf/open/space/openspace,
-/area/space/nearstation)
 "gKl" = (
 /obj/structure/chair/wood{
 	dir = 8
@@ -43256,7 +43264,7 @@
 /area/station/security/prison/mess)
 "mjL" = (
 /obj/machinery/power/shuttle_engine/huge,
-/turf/open/space/openspace,
+/turf/open/space/basic,
 /area/space)
 "mjM" = (
 /obj/structure/table,
@@ -55812,6 +55820,18 @@
 	dir = 8
 	},
 /area/station/medical/treatment_center)
+"pEm" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 8
+	},
+/obj/machinery/duct,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/self_actualization_device,
+/obj/structure/railing,
+/turf/open/floor/iron/white/smooth_edge{
+	dir = 4
+	},
+/area/station/medical/medbay/central)
 "pEn" = (
 /turf/closed/wall,
 /area/station/maintenance/aft/greater)
@@ -64124,9 +64144,6 @@
 /obj/machinery/vending/autodrobe/all_access,
 /turf/open/floor/wood/large,
 /area/station/commons/fitness/recreation/entertainment)
-"rSn" = (
-/turf/open/space/openspace,
-/area/space)
 "rSu" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -78422,6 +78439,17 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/exit/departure_lounge)
+"vMm" = (
+/obj/machinery/duct,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/sleeper{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/blue{
+	dir = 6
+	},
+/turf/open/floor/iron/white/diagonal,
+/area/station/medical/medbay/central)
 "vMr" = (
 /obj/structure/closet/firecloset,
 /obj/effect/turf_decal/bot,
@@ -86582,7 +86610,7 @@
 /area/station/security/brig)
 "ycM" = (
 /obj/machinery/power/shuttle_engine/huge,
-/turf/open/space/openspace,
+/turf/open/space/basic,
 /area/space/nearstation)
 "ycQ" = (
 /obj/effect/turf_decal/trimline/brown/filled/line{
@@ -106977,7 +107005,7 @@ mnM
 uUU
 oVO
 pkp
-gKa
+xXo
 ycM
 ttw
 ttw
@@ -107234,8 +107262,8 @@ rzh
 uUU
 jwC
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -107491,8 +107519,8 @@ oOK
 uUU
 rmo
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -108006,7 +108034,7 @@ spp
 uUU
 oVO
 pkp
-gKa
+xXo
 ycM
 ttw
 ttw
@@ -108263,8 +108291,8 @@ iaq
 uUU
 jwC
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -108520,8 +108548,8 @@ eMd
 uUU
 rmo
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -111609,7 +111637,7 @@ gPH
 deE
 wTj
 pkp
-gKa
+xXo
 ycM
 ttw
 ttw
@@ -111866,8 +111894,8 @@ gyZ
 deE
 mwR
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -112123,8 +112151,8 @@ hHW
 deE
 gyG
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -114617,9 +114645,9 @@ qxO
 kCj
 qft
 fve
-eFN
-eFN
-eFN
+pEm
+auL
+vMm
 eFN
 rOB
 tSw
@@ -114944,7 +114972,7 @@ cwa
 brI
 gAd
 pkp
-gKa
+xXo
 ycM
 ttw
 ttw
@@ -115201,8 +115229,8 @@ cwa
 brI
 ngt
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -115458,8 +115486,8 @@ cwa
 brI
 wNk
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -116999,7 +117027,7 @@ tSH
 gmz
 gAd
 pkp
-gKa
+xXo
 ycM
 ttw
 ttw
@@ -117256,8 +117284,8 @@ sLM
 gmz
 ngt
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -117513,8 +117541,8 @@ sBr
 gmz
 ngt
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -117770,7 +117798,7 @@ pqO
 gmz
 ngt
 pkp
-gKa
+xXo
 ycM
 ttw
 ttw
@@ -118027,8 +118055,8 @@ aZH
 gmz
 ngt
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -118284,8 +118312,8 @@ hUm
 gmz
 wNk
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -118794,7 +118822,7 @@ lhE
 qbp
 oWM
 pkp
-gKa
+xXo
 ycM
 ttw
 ttw
@@ -119051,8 +119079,8 @@ jfq
 qbp
 nIl
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -119308,8 +119336,8 @@ awv
 qbp
 nIl
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -119565,7 +119593,7 @@ czs
 qbp
 nIl
 pkp
-gKa
+xXo
 ycM
 ttw
 ttw
@@ -119822,8 +119850,8 @@ gXR
 qbp
 nIl
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -120079,8 +120107,8 @@ dyl
 qbp
 rTG
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -120594,7 +120622,7 @@ rYy
 qbp
 oWM
 pkp
-gKa
+xXo
 ycM
 ttw
 ttw
@@ -120851,8 +120879,8 @@ avz
 qbp
 nIl
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -121108,8 +121136,8 @@ vau
 qbp
 rTG
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -121621,7 +121649,7 @@ veD
 qbp
 oWM
 pkp
-gKa
+xXo
 ycM
 ttw
 ttw
@@ -121878,8 +121906,8 @@ ceN
 qbp
 nIl
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -122135,8 +122163,8 @@ koQ
 qbp
 nIl
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -122392,7 +122420,7 @@ rfk
 qbp
 nIl
 pkp
-gKa
+xXo
 ycM
 ttw
 ttw
@@ -122649,8 +122677,8 @@ gXR
 qbp
 nIl
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -122906,8 +122934,8 @@ gXR
 qbp
 rTG
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -123422,7 +123450,7 @@ dyl
 qbp
 oWM
 pkp
-gKa
+xXo
 ycM
 ttw
 ttw
@@ -123679,8 +123707,8 @@ evE
 qbp
 nIl
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -123936,8 +123964,8 @@ kvZ
 qbp
 nIl
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -124193,7 +124221,7 @@ qbp
 qbp
 nIl
 pkp
-gKa
+xXo
 ycM
 ttw
 ttw
@@ -124450,8 +124478,8 @@ jnZ
 xGA
 gdu
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -124707,8 +124735,8 @@ jnZ
 xGA
 myC
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -127541,7 +127569,7 @@ xAr
 sJd
 gUC
 pkp
-gKa
+xXo
 ycM
 ttw
 ttw
@@ -127798,8 +127826,8 @@ oxH
 sJd
 ykC
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -128055,8 +128083,8 @@ gwJ
 sJd
 wuU
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -130625,7 +130653,7 @@ gIT
 unI
 otq
 pkp
-gKa
+xXo
 ycM
 ttw
 ttw
@@ -130882,8 +130910,8 @@ ayt
 unI
 hqJ
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -130988,7 +131016,7 @@ ttw
 ttw
 ttw
 joP
-sLS
+iEP
 pbe
 hKP
 isy
@@ -131139,8 +131167,8 @@ sUV
 unI
 vag
 pkp
-gKa
-gKa
+xXo
+xXo
 ttw
 ttw
 ttw
@@ -131648,7 +131676,7 @@ wsc
 lAi
 jBK
 oyt
-rSn
+ttw
 mjL
 ttw
 ttw
@@ -131905,8 +131933,8 @@ ajL
 lAi
 uLA
 oyt
-rSn
-rSn
+ttw
+ttw
 ttw
 ttw
 ttw
@@ -132162,8 +132190,8 @@ ajL
 lAi
 ftr
 oyt
-rSn
-rSn
+ttw
+ttw
 ttw
 ttw
 ttw

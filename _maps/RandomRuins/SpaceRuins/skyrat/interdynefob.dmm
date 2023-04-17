@@ -463,11 +463,11 @@
 	dir = 1
 	},
 /obj/item/bedsheet/syndie{
-	name = "station admiral's bedsheet";
+	name = "captain's bedsheet";
 	dir = 1
 	},
 /turf/open/floor/carpet/red,
-/area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
+/area/ruin/space/has_grav/skyrat/interdynefob/bridge/captain)
 "bu" = (
 /obj/structure/curtain,
 /obj/structure/drain,
@@ -516,18 +516,16 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/halls)
 "bP" = (
-/obj/structure/table,
-/obj/effect/turf_decal/stripes/red/line{
-	dir = 1
-	},
-/obj/item/storage/bag/tray/cafeteria,
-/obj/item/storage/bag/tray/cafeteria{
-	pixel_y = 3
-	},
-/obj/item/storage/bag/tray/cafeteria{
-	pixel_y = 6
-	},
-/turf/open/floor/iron/dark/textured_large,
+/obj/effect/turf_decal/siding/dark,
+/obj/structure/closet/crate/trashcart/laundry,
+/obj/item/clothing/under/rank/prisoner/syndicate,
+/obj/item/clothing/under/rank/prisoner/syndicate,
+/obj/item/clothing/under/rank/prisoner/syndicate,
+/obj/item/clothing/under/rank/prisoner/skirt/syndicate,
+/obj/item/clothing/under/rank/prisoner/skirt/syndicate,
+/obj/item/clothing/under/rank/prisoner/skirt/syndicate,
+/obj/effect/spawner/random/contraband/prison,
+/turf/open/floor/iron/small,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
 "bR" = (
 /obj/machinery/computer/operating,
@@ -915,6 +913,7 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/service/dorms)
 "dn" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/iron/white/diagonal,
 /area/ruin/space/has_grav/skyrat/interdynefob/medbay)
 "do" = (
@@ -1000,7 +999,7 @@
 /obj/machinery/button/door/directional/north{
 	desc = "Keep out the riff-raff.";
 	id = "sadmiral";
-	name = "Admiral's room bolt";
+	name = "Captain's room bolt";
 	normaldoorcontrol = 1;
 	req_access = list("syndicate_leader");
 	specialfunctions = 4
@@ -1014,7 +1013,7 @@
 /obj/effect/decal/cleanable/oil,
 /mob/living/basic/pet/syndifox,
 /turf/open/floor/wood,
-/area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
+/area/ruin/space/has_grav/skyrat/interdynefob/bridge/captain)
 "dI" = (
 /obj/effect/turf_decal/bot_white,
 /obj/structure/sink/kitchen/directional/west,
@@ -1067,7 +1066,7 @@
 /obj/machinery/door/airlock/command{
 	hackProof = 1;
 	id_tag = "sadmiral";
-	name = "Station Admiral"
+	name = "Captain"
 	},
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /obj/effect/mapping_helpers/airlock/locked,
@@ -1078,7 +1077,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/airlock/unres,
 /turf/open/floor/wood,
-/area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
+/area/ruin/space/has_grav/skyrat/interdynefob/bridge/captain)
 "dR" = (
 /obj/machinery/shower/directional/north,
 /obj/effect/turf_decal/siding/dark{
@@ -1221,7 +1220,9 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/bridge)
 "eE" = (
 /obj/structure/filingcabinet,
-/obj/machinery/power/apc/auto_name/directional/north,
+/obj/machinery/power/apc/auto_name/directional/north{
+	req_access = list("syndicate")
+	},
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/lawyer)
@@ -1364,6 +1365,7 @@
 	maints_access_required = list("syndicate");
 	name = "Insurgent Care"
 	},
+/obj/structure/cable,
 /turf/open/floor/iron/white/diagonal,
 /area/ruin/space/has_grav/skyrat/interdynefob/medbay)
 "fe" = (
@@ -1498,7 +1500,9 @@
 /obj/effect/turf_decal/trimline/dark_blue/line{
 	dir = 1
 	},
-/obj/machinery/power/apc/auto_name/directional/north,
+/obj/machinery/power/apc/auto_name/directional/north{
+	req_access = list("syndicate")
+	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
@@ -1726,6 +1730,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 2
 	},
+/obj/structure/cable,
 /turf/open/floor/iron/white/diagonal,
 /area/ruin/space/has_grav/skyrat/interdynefob/medbay)
 "ha" = (
@@ -1783,7 +1788,7 @@
 	},
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/wood/large,
-/area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
+/area/ruin/space/has_grav/skyrat/interdynefob/bridge/captain)
 "hi" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/cable,
@@ -1837,7 +1842,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/skyrat/interdynefob/security)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
 "hx" = (
 /obj/machinery/power/turbine/inlet_compressor,
 /obj/effect/turf_decal/stripes/line{
@@ -1866,7 +1871,7 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/skyrat/interdynefob/security)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
 "hA" = (
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 1
@@ -1889,10 +1894,18 @@
 "hC" = (
 /obj/effect/turf_decal/stripes/red/line,
 /obj/effect/turf_decal/siding/dark,
-/obj/structure/window/reinforced/survival_pod,
-/obj/structure/rack,
-/obj/item/storage/medkit/emergency,
-/obj/machinery/light/cold/directional/east,
+/obj/effect/turf_decal/delivery/white{
+	color = "#00ff00";
+	name = "green"
+	},
+/obj/machinery/cryopod{
+	dir = 8
+	},
+/obj/machinery/computer/cryopod/interdyne{
+	dir = 8;
+	pixel_x = 24
+	},
+/obj/structure/railing,
 /turf/open/floor/iron/dark/small,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
 "hE" = (
@@ -2352,7 +2365,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/red,
-/area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
+/area/ruin/space/has_grav/skyrat/interdynefob/bridge/captain)
 "jt" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/hedge,
@@ -2381,7 +2394,7 @@
 	pixel_x = 32
 	},
 /turf/open/floor/wood/large,
-/area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
+/area/ruin/space/has_grav/skyrat/interdynefob/bridge/captain)
 "jC" = (
 /obj/effect/turf_decal/skyrat_decals/syndicate/middle/right,
 /obj/structure/cable,
@@ -3243,6 +3256,13 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/skyrat/interdynefob/engineering)
+"nD" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/dark,
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
 "nG" = (
 /obj/structure/window/reinforced/survival_pod{
 	dir = 6
@@ -3787,7 +3807,7 @@
 	cycle_id = "DS2permabrig"
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/ruin/space/has_grav/skyrat/interdynefob/security)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
 "pI" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/window/reinforced/survival_pod,
@@ -4142,7 +4162,6 @@
 	name = "Brig Restroom"
 	},
 /obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/airlock/cutaiwire,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark/textured_large,
@@ -4433,7 +4452,7 @@
 	trim = /datum/id_trim/syndicom/skyrat/ds2/prisoner
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/ruin/space/has_grav/skyrat/interdynefob/security)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
 "sr" = (
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 8
@@ -4467,7 +4486,9 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
-/obj/machinery/power/apc/auto_name/directional/east,
+/obj/machinery/power/apc/auto_name/directional/east{
+	req_access = list("syndicate")
+	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -4595,13 +4616,11 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/skyrat/interdynefob/halls)
 "tl" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
 /obj/structure/plasticflaps,
 /obj/machinery/conveyor{
 	id = "ds2disposals"
 	},
+/obj/effect/turf_decal/stripes/end,
 /turf/open/floor/iron/pool,
 /area/ruin/space/has_grav/skyrat/interdynefob/engineering)
 "tm" = (
@@ -4796,6 +4815,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/structure/cable,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/medbay/chem)
 "tY" = (
@@ -4993,7 +5013,8 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/research)
 "ve" = (
 /obj/effect/turf_decal/siding/dark,
-/turf/open/floor/iron/dark/small,
+/obj/machinery/washing_machine,
+/turf/open/floor/iron/small,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
 "vg" = (
 /obj/structure/table/optable,
@@ -5073,7 +5094,7 @@
 "vx" = (
 /obj/structure/closet/secure_closet{
 	icon_state = "cap";
-	name = "\proper station admiral's locker";
+	name = "\proper captain's locker";
 	req_access = list("syndicate")
 	},
 /obj/item/clothing/head/hats/hos/syndicate,
@@ -5091,11 +5112,11 @@
 /obj/item/clothing/glasses/sunglasses,
 /obj/item/ammo_box/magazine/m9mm_aps,
 /obj/item/clothing/accessory/medal/gold{
-	name = "medal of admiralty";
-	desc = "A golden medal awarded exclusively to those promoted to the rank of captain. It signifies the codified responsibilities of an Admiral to the Sothran Syndicate, and their undisputable authority over their crew."
+	name = "medal of captaincy";
+	desc = "A golden medal awarded exclusively to those promoted to the rank of captain. It signifies the codified responsibilities of a Captain to the Sothran Syndicate, and their undisputable authority over their crew."
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
+/area/ruin/space/has_grav/skyrat/interdynefob/bridge/captain)
 "vA" = (
 /obj/machinery/quantumpad{
 	map_pad_id = "ds2";
@@ -5550,7 +5571,7 @@
 	pixel_x = 8;
 	pixel_y = 3
 	},
-/turf/open/floor/iron/dark/small,
+/turf/open/floor/iron/small,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
 "yi" = (
 /obj/structure/cable,
@@ -5625,7 +5646,7 @@
 	},
 /obj/item/restraints/handcuffs,
 /turf/open/floor/mineral/plastitanium/red,
-/area/ruin/space/has_grav/skyrat/interdynefob/security)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
 "yP" = (
 /obj/structure/chair,
 /obj/machinery/firealarm/directional/west,
@@ -5977,6 +5998,13 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/halls)
 "Al" = (
 /obj/structure/table,
+/obj/item/storage/bag/tray/cafeteria,
+/obj/item/storage/bag/tray/cafeteria{
+	pixel_y = 3
+	},
+/obj/item/storage/bag/tray/cafeteria{
+	pixel_y = 6
+	},
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
 "An" = (
@@ -6016,7 +6044,7 @@
 	pixel_y = 15
 	},
 /turf/open/floor/carpet/red,
-/area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
+/area/ruin/space/has_grav/skyrat/interdynefob/bridge/captain)
 "Au" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/extinguisher_cabinet/directional/east,
@@ -6240,7 +6268,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/obj/effect/turf_decal/stripes/end,
 /obj/effect/spawner/random/trash/food_packaging,
 /obj/effect/spawner/random/trash/cigbutt{
 	pixel_y = -10
@@ -6412,6 +6439,7 @@
 	dir = 10
 	},
 /obj/machinery/duct,
+/obj/structure/cable,
 /turf/open/floor/iron/white/diagonal,
 /area/ruin/space/has_grav/skyrat/interdynefob/medbay)
 "Ce" = (
@@ -6517,7 +6545,7 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "CH" = (
 /turf/open/floor/carpet/red,
-/area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
+/area/ruin/space/has_grav/skyrat/interdynefob/bridge/captain)
 "CJ" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 1
@@ -6545,7 +6573,6 @@
 /turf/open/floor/plating/elevatorshaft,
 /area/ruin/space/has_grav/skyrat/interdynefob/cargo/hangar)
 "CT" = (
-/obj/structure/chair/stool/directional/west,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 10
 	},
@@ -6636,8 +6663,8 @@
 /obj/effect/turf_decal/stripes/red/corner{
 	dir = 1
 	},
-/obj/effect/turf_decal/siding/dark/corner{
-	dir = 1
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
 	},
 /turf/open/floor/iron/dark/small,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
@@ -6801,6 +6828,11 @@
 /obj/machinery/smartfridge,
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/skyrat/interdynefob/service/hydroponics)
+"DO" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
 "DS" = (
 /obj/machinery/disposal/bin,
 /obj/effect/turf_decal/siding/thinplating/end{
@@ -6978,7 +7010,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/obj/effect/turf_decal/stripes/end,
 /obj/effect/spawner/random/trash/botanical_waste,
 /obj/effect/spawner/random/trash/food_packaging{
 	pixel_x = -4;
@@ -7031,7 +7062,7 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/bridge/eva)
 "EY" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
-/area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
+/area/ruin/space/has_grav/skyrat/interdynefob/bridge/captain)
 "EZ" = (
 /obj/effect/spawner/random/contraband/prison,
 /obj/structure/closet/crate/bin,
@@ -7399,7 +7430,8 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/research)
 "GD" = (
 /obj/effect/turf_decal/siding/dark,
-/obj/structure/table,
+/obj/item/storage/medkit/emergency,
+/obj/structure/rack,
 /turf/open/floor/iron/dark/small,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
 "GE" = (
@@ -7460,7 +7492,7 @@
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/skyrat/interdynefob/security)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
 "GR" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/reagent_dispensers/fueltank,
@@ -7497,11 +7529,11 @@
 	pixel_y = 6
 	},
 /obj/item/paper{
-	default_raw_text = "<h1>DS2 Command Report</h1><p>The Deep Space 2 Forward Operating Base has successfully relocated itself near active Nanotrasen installations. Reboot of shuttle engines in progress...</p><p>The Sothran Syndicate is glad to have you on-field, admiral. Nanotrasen is in the direct sector and, as such, is the direct target of our operatives. Manage your crew well and with respect, and leave all your anger to the gravel that is Nanotrasen. Remember that Interdyne has an unaffiliated facade to keep up, as such, advise against your crew flaunting their affiliation to non-crew.</p><p>Stay winning.</p>";
+	default_raw_text = "<h1>DS2 Command Report</h1><p>The Deep Space 2 Forward Operating Base has successfully relocated itself near active Nanotrasen installations. Reboot of shuttle engines in progress...</p><p>The Sothran Syndicate is glad to have you on-field, captain. Nanotrasen is in the direct sector and, as such, is the direct target of our operatives. Manage your crew well and with respect, and leave all your anger to the gravel that is Nanotrasen. Remember that Interdyne has an unaffiliated facade to keep up, as such, advise against your crew flaunting their affiliation to non-crew.</p><p>Stay winning.</p>";
 	name = "paper- 'DS2 Command Report'"
 	},
 /turf/open/floor/wood/large,
-/area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
+/area/ruin/space/has_grav/skyrat/interdynefob/bridge/captain)
 "GX" = (
 /obj/structure/sign/flag/syndicate/directional/south{
 	pixel_x = 16
@@ -7938,7 +7970,7 @@
 	mod_type = /obj/item/mod/control/pre_equipped/traitor_elite
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
+/area/ruin/space/has_grav/skyrat/interdynefob/bridge/captain)
 "Jd" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/skyrat/interdynefob/medbay/chem)
@@ -8369,7 +8401,7 @@
 "Le" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/carpet/red,
-/area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
+/area/ruin/space/has_grav/skyrat/interdynefob/bridge/captain)
 "Lf" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/cable,
@@ -8554,7 +8586,7 @@
 	pixel_x = -24
 	},
 /turf/open/floor/wood,
-/area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
+/area/ruin/space/has_grav/skyrat/interdynefob/bridge/captain)
 "LK" = (
 /obj/structure/sign/flag/syndicate/directional/south,
 /obj/machinery/light/warm/directional/south,
@@ -8700,20 +8732,19 @@
 	pixel_y = 3
 	},
 /obj/item/pen/fountain/captain{
-	name = "admiral's fountain pen";
 	pixel_y = 5
 	},
 /turf/open/floor/wood/large,
-/area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
+/area/ruin/space/has_grav/skyrat/interdynefob/bridge/captain)
 "ME" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /obj/machinery/door/poddoor/shutters{
-	name = "Admiral Shutters";
+	name = "Captain Shutters";
 	id = "ds2admiral";
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
+/area/ruin/space/has_grav/skyrat/interdynefob/bridge/captain)
 "MF" = (
 /obj/effect/turf_decal/bot_blue,
 /obj/structure/closet/secure_closet/freezer/meat{
@@ -9099,7 +9130,7 @@
 	},
 /obj/machinery/light/warm/directional/north,
 /turf/open/floor/wood/large,
-/area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
+/area/ruin/space/has_grav/skyrat/interdynefob/bridge/captain)
 "NY" = (
 /obj/structure/closet/firecloset/full,
 /turf/open/floor/mineral/plastitanium,
@@ -9280,20 +9311,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/skyrat/interdynefob/bridge)
-"OT" = (
-/obj/machinery/cryopod{
-	dir = 8
-	},
-/obj/effect/turf_decal/delivery/white{
-	color = "#00ff00";
-	name = "green"
-	},
-/obj/machinery/computer/cryopod/interdyne{
-	dir = 8;
-	pixel_x = 24
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
 "OU" = (
 /obj/effect/turf_decal/trimline/dark_green/corner{
 	dir = 4
@@ -9308,7 +9325,9 @@
 	dir = 9
 	},
 /obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/north,
+/obj/machinery/power/apc/auto_name/directional/north{
+	req_access = list("syndicate")
+	},
 /obj/structure/chair/sofa/corp/left{
 	color = "#DE3A3A";
 	dir = 4
@@ -9551,6 +9570,17 @@
 /obj/structure/punching_bag,
 /turf/open/floor/carpet/blue,
 /area/ruin/space/has_grav/skyrat/interdynefob/service/dorms/fitness)
+"PZ" = (
+/obj/structure/railing,
+/obj/effect/turf_decal/siding/dark,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/power/apc/auto_name/directional/north{
+	req_access = list("syndicate")
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/skyrat/interdynefob/medbay/chem)
 "Qa" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners{
 	dir = 8
@@ -9628,7 +9658,7 @@
 	},
 /mob/living/simple_animal/pet/fox{
 	name = "Rhials";
-	desc = "Legend has it that once, a long time ago,  Rhials was the Admiral's personal pet fox. Now, he bravely occupies the Corporate Liasion's time, pining for the days where he had a pug to play with and a seat at the top."
+	desc = "Legend has it that once, a long time ago,  Rhials was the Captain's personal pet fox. Now, he bravely occupies the Corporate Liasion's time, pining for the days where he had a pug to play with and a seat at the top."
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/bridge/cl)
@@ -9779,6 +9809,7 @@
 "QN" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
 /turf/open/floor/iron/white/diagonal,
 /area/ruin/space/has_grav/skyrat/interdynefob/medbay)
 "QO" = (
@@ -9799,7 +9830,6 @@
 /turf/open/floor/iron/white/diagonal,
 /area/ruin/space/has_grav/skyrat/interdynefob/service/hydroponics)
 "QV" = (
-/obj/structure/chair/stool/directional/east,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 1
 	},
@@ -10293,7 +10323,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood/large,
-/area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
+/area/ruin/space/has_grav/skyrat/interdynefob/bridge/captain)
 "SZ" = (
 /obj/machinery/computer/security{
 	dir = 1;
@@ -10710,7 +10740,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood/large,
-/area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
+/area/ruin/space/has_grav/skyrat/interdynefob/bridge/captain)
 "Uv" = (
 /obj/structure/disposalpipe/trunk{
 	dir = 1
@@ -11192,7 +11222,7 @@
 	cycle_id = "DS2permabrig"
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/ruin/space/has_grav/skyrat/interdynefob/security)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
 "Wv" = (
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 4
@@ -11591,7 +11621,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/wood/large,
-/area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
+/area/ruin/space/has_grav/skyrat/interdynefob/bridge/captain)
 "XN" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/effect/turf_decal/trimline/dark_red/line,
@@ -11742,9 +11772,9 @@
 /turf/open/floor/iron/white/small,
 /area/ruin/space/has_grav/skyrat/interdynefob/medbay/chem)
 "YG" = (
-/obj/effect/mob_spawn/ghost_role/human/ds2/syndicate_command/admiral,
+/obj/effect/mob_spawn/ghost_role/human/ds2/syndicate_command/captain,
 /turf/open/floor/carpet/red,
-/area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
+/area/ruin/space/has_grav/skyrat/interdynefob/bridge/captain)
 "YH" = (
 /obj/machinery/door/airlock/silver{
 	name = "Public Showers"
@@ -11839,7 +11869,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/wood/large,
-/area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
+/area/ruin/space/has_grav/skyrat/interdynefob/bridge/captain)
 "Zs" = (
 /obj/item/bedsheet/medical,
 /obj/structure/bed,
@@ -12146,8 +12176,8 @@ rc
 rc
 rc
 yh
-ve
 bP
+QV
 Al
 ah
 Se
@@ -12201,7 +12231,7 @@ iO
 VT
 Ir
 Du
-ve
+nD
 CT
 JA
 Ua
@@ -12308,7 +12338,7 @@ kF
 kF
 hC
 Lw
-OT
+Lw
 Vb
 hA
 GD
@@ -12457,20 +12487,20 @@ dh
 iK
 gb
 iZ
-uV
-uV
-uV
-uV
-Xh
-Xh
-Xh
-Xh
-Xh
-Xh
-Xh
-Xh
-Xh
-Xh
+kF
+kF
+kF
+kF
+kF
+kF
+kF
+kF
+kF
+kF
+kF
+kF
+kF
+kF
 yL
 hz
 GO
@@ -12525,12 +12555,12 @@ jd
 zn
 lt
 Ov
-Xh
-Xh
+kF
+kF
 pB
-ms
+DO
 Wu
-Xh
+kF
 PX
 Lv
 bS
@@ -13508,7 +13538,7 @@ Rt
 Rt
 Rt
 Rt
-cA
+PZ
 Vu
 iX
 oc

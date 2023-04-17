@@ -56,7 +56,7 @@
 	export_types = list(/obj/item/stack/sheet/animalhide/carp)
 
 /datum/export/stack/licenseplate
-	cost = CARGO_CRATE_VALUE * 0.125
+	cost = CARGO_CRATE_VALUE * 0.2
 	unit_name = "license plate"
 	export_types = list(/obj/item/stack/license_plates/filled)
 
@@ -116,16 +116,6 @@
 	cost = CARGO_CRATE_VALUE * 0.125
 	unit_name = "of ammonia crystal"
 	export_types = list(/obj/item/stack/ammonia_crystals)
-
-/datum/export/stack/pizza
-	cost = CARGO_CRATE_VALUE * 0.06
-	unit_name = "of sheetza"
-	export_types = list(/obj/item/stack/sheet/pizza)
-
-/datum/export/stack/meat
-	cost = CARGO_CRATE_VALUE * 0.04
-	unit_name = "of meat"
-	export_types = list(/obj/item/stack/sheet/meat)
 
 // Weird Stuff
 

@@ -25,6 +25,7 @@
 		id_card.update_label()
 		id_card.update_icon()
 
+	handlebank(syndicate)
 	return ..()
 
 /datum/outfit/lavaland_syndicate/ice
@@ -76,7 +77,7 @@
 	icon_state = "syndie_headset"
 	inhand_icon_state = null
 	radiosound = 'modular_skyrat/modules/radiosound/sound/radio/syndie.ogg'
-	keyslot = new /obj/item/encryptionkey/headset_syndicate/interdyne
+	keyslot = /obj/item/encryptionkey/headset_syndicate/interdyne
 
 /obj/item/radio/headset/interdyne/Initialize(mapload)
 	. = ..()

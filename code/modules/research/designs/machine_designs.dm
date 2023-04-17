@@ -21,6 +21,26 @@
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
+/datum/design/board/rtg
+	name = "RTG generator board"
+	desc = "A basic RTG. Capable of produing a scalable amount of power depending on part tier, from 10kW to 40kW." // This doesn't account for WB-32 parts but'll be less confusing for people.
+	id = "rtgb"
+	build_path = /obj/item/circuitboard/machine/rtg
+	category = list(
+		RND_CATEGORY_MACHINE + RND_SUBCATEGORY_MACHINE_ENGINEERING
+	)
+	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_ENGINEERING
+
+/datum/design/board/rtg_advanced
+	name = "Advanced RTG generator board"
+	desc = "A basic RTG. Capable of produing a scalable amount of power depending on part tier, from 25kW to 100kW."
+	id = "rtgbadv"
+	build_path = /obj/item/circuitboard/machine/rtg/advanced
+	category = list(
+		RND_CATEGORY_MACHINE + RND_SUBCATEGORY_MACHINE_ENGINEERING
+	)
+	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_ENGINEERING
+
 /datum/design/board/announcement_system
 	name = "Automated Announcement System Board"
 	desc = "The circuit board for an automated announcement system."
@@ -613,6 +633,16 @@
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
+/datum/design/board/bulletdrive
+	name = "Bullet Drive Board"
+	desc = "The circuit board for a Bullet Drive."
+	id = "bulletdrive"
+	build_path = /obj/item/circuitboard/machine/dish_drive/bullet
+	category = list(
+		RND_CATEGORY_MACHINE + RND_SUBCATEGORY_MACHINE_SECURITY
+	)
+	departmental_flags = DEPARTMENT_BITFLAG_SECURITY | DEPARTMENT_BITFLAG_ENGINEERING
+
 /datum/design/board/vendor
 	name = "Vendor Board"
 	desc = "The circuit board for a Vendor."
@@ -673,6 +703,26 @@
 		RND_CATEGORY_MACHINE + RND_SUBCATEGORY_MACHINE_TELECOMMS
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
+
+/datum/design/board/sleeper
+	name = "Sleeper Board"
+	desc = "The circuit board for a sleeper."
+	id = "sleeper"
+	build_path = /obj/item/circuitboard/machine/sleeper
+	category = list(
+		RND_CATEGORY_MACHINE + RND_SUBCATEGORY_MACHINE_MEDICAL
+	)
+	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
+
+/datum/design/board/syndiesleeper
+	name = "Syndicate Sleeper Board"
+	desc = "The circuit board for a syndicate sleeper."
+	id = "syndsleeper"
+	build_path = /obj/item/circuitboard/machine/sleeper/syndicate
+	category = list(
+		RND_CATEGORY_MACHINE + RND_SUBCATEGORY_MACHINE_MEDICAL
+	)
+	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/board/limbgrower
 	name = "Limb Grower Board"

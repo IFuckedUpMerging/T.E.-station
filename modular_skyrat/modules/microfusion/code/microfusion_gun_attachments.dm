@@ -215,13 +215,13 @@ The gun can fire volleys of shots.
 	heat_addition = 40
 	slot = GUN_SLOT_BARREL
 	/// The spread to add to the gun.
-	var/spread_to_add = 15
+	var/spread_to_add = 5
 	/// The recoil to add to the gun.
-	var/recoil_to_add = 1
+	var/recoil_to_add = 0
 	/// The burst to add to the gun.
 	var/burst_to_add = 1
 	/// The delay to add to the firing.
-	var/delay_to_add = 5
+	var/delay_to_add = 2
 	var/projectile_override =/obj/projectile/beam/laser/microfusion/repeater
 
 /obj/item/microfusion_gun_attachment/repeater/run_attachment(obj/item/gun/microfusion/microfusion_gun)
@@ -255,9 +255,9 @@ The gun can fire volleys of shots that penetrate armor.
 	power_usage = 20
 	slot = GUN_SLOT_BARREL
 	/// The spread to add to the gun.
-	var/spread_to_add = 15
+	var/spread_to_add = 5
 	/// The recoil to add to the gun.
-	var/recoil_to_add = 1
+	var/recoil_to_add = 0
 	/// The burst to add to the gun.
 	var/burst_to_add = 1
 	/// The delay to add to the firing.
@@ -355,7 +355,7 @@ HEATSINK ATTACHMENT
 	attachment_overlay_icon_state = "attachment_heatsink"
 	slot = GUN_SLOT_UNDERBARREL
 	/// Coolant bonus
-	var/cooling_rate_increase = 50
+	var/cooling_rate_increase = 100
 
 /obj/item/microfusion_gun_attachment/heatsink/run_attachment(obj/item/gun/microfusion/microfusion_gun)
 	. = ..()
@@ -620,7 +620,7 @@ The gun fires fast heavy lasers but takes a long time to fire.
 	attachment_overlay_icon_state = "attachment_lance"
 	heat_addition = 150
 	power_usage = 100
-	var/added_fire_delay = 25
+	var/added_fire_delay = 10
 
 /obj/item/microfusion_gun_attachment/lance/examine(mob/user)
 	. = ..()

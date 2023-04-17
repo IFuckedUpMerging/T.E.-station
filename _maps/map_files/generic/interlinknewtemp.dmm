@@ -213,6 +213,10 @@
 "xP" = (
 /turf/open/space/basic,
 /area/space)
+"xS" = (
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/large,
+/area/space)
 "yN" = (
 /obj/structure/railing/corner{
 	dir = 8
@@ -273,6 +277,7 @@
 /obj/effect/turf_decal/trimline/dark_blue/mid_joiner{
 	dir = 1
 	},
+/obj/structure/closet/emcloset,
 /turf/open/floor/mineral/titanium/blue,
 /area/space)
 "CU" = (
@@ -446,6 +451,7 @@
 	},
 /obj/effect/turf_decal/trimline/dark_blue/warning,
 /obj/effect/turf_decal/trimline/dark_blue/mid_joiner,
+/obj/structure/closet/emcloset,
 /turf/open/floor/mineral/titanium/blue,
 /area/space)
 "Uq" = (
@@ -6478,7 +6484,7 @@ Ma
 Ma
 Ma
 Ma
-xP
+xS
 xP
 xP
 xP
@@ -6580,7 +6586,7 @@ Ma
 Ma
 Ma
 Ma
-xP
+xS
 xP
 xP
 xP
@@ -6668,21 +6674,21 @@ MS
 MS
 MS
 MS
+xS
+xS
+xS
+MS
 xP
 xP
 xP
 xP
 xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
+MS
+xS
+xS
+xS
+MS
+MS
 xP
 xP
 xP

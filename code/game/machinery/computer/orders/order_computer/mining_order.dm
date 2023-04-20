@@ -42,7 +42,7 @@
 		orderer_ckey = purchaser.ckey, \
 		reason = "", \
 		paying_account = card.registered_account, \
-		department_destination = null, \
+		department_ordered = FALSE, \
 		coupon = null, \
 		charge_on_purchase = FALSE,
 	)

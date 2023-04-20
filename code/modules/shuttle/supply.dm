@@ -130,7 +130,7 @@ GLOBAL_LIST_INIT(blacklisted_cargo_types, typecacheof(list(
 
 		//department orders EARN money for cargo, not the other way around
 		//Skyrat Edit Add
-		if(!spawning_order.department_destination && spawning_order.charge_on_purchase)
+		if(!spawning_order.department_ordered && spawning_order.charge_on_purchase)
 		//Skyrat Edit End
 			if(spawning_order.paying_account) //Someone paid out of pocket
 				paying_for_this = spawning_order.paying_account

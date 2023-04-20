@@ -44,8 +44,8 @@
 	var/discounted_pct
 	///If set to FALSE, we won't charge when the cargo shuttle arrives with this.
 	var/charge_on_purchase = TRUE
-	///area this order wants to reach, if not null then it will come with the deliver_first component set to this area
-	var/department_destination
+	///If this is set to TRUE, we showcase that this is a department order and prevent it from being cancelled.
+	var/department_ordered = FALSE
 	var/datum/supply_pack/pack
 	var/datum/bank_account/paying_account
 	var/obj/item/coupon/applied_coupon
@@ -57,7 +57,7 @@
 	orderer_ckey,
 	reason,
 	paying_account,
-	department_destination,
+	department_order,
 	coupon,
 	charge_on_purchase,
 )
@@ -68,7 +68,7 @@
 	src.orderer_ckey = orderer_ckey
 	src.reason = reason
 	src.paying_account = paying_account
-	src.department_destination = department_destination
+	src.department_ordered = department_ordered
 	src.applied_coupon = coupon
 	src.charge_on_purchase = charge_on_purchase
 
@@ -150,8 +150,6 @@
 	else
 		account_holder = "Cargo"
 	var/obj/structure/closet/crate/crate = pack.generate(A, paying_account)
-	if(department_destination)
-		crate.AddElement(/datum/element/deliver_first, department_destination, pack.cost)
 	generateManifest(crate, account_holder, pack, pack.cost)
 	return crate
 

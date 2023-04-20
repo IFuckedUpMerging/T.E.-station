@@ -17,20 +17,8 @@ GLOBAL_LIST_INIT(department_order_cooldowns, list(
 	var/datum/supply_order/department_order
 	///access required to override an order - this should be a head of staff for the department
 	var/override_access
-	///where this computer expects deliveries to need to go, passed onto orders. it will see if the FIRST one exists, then try a fallback. if no fallbacks it throws an error
-	var/list/department_delivery_areas = list()
 	///which groups this computer can order from
 	var/list/dep_groups = list()
-
-/obj/machinery/computer/department_orders/Initialize(mapload, obj/item/circuitboard/board)
-	. = ..()
-	if(mapload) //check for mapping errors
-		for(var/delivery_area_type in department_delivery_areas)
-			if(GLOB.areas_by_type[delivery_area_type])
-				return
-		//every area fallback didn't exist on this map so throw a mapping error and set some generic area that uuuh please exist okay
-		log_mapping("[src] has no valid areas to deliver to on this map, add some more fallback areas to its \"department_delivery_areas\" var.")
-		department_delivery_areas = list(/area/station/hallway/primary/central) //if this doesn't exist like honestly fuck your map man
 
 /obj/machinery/computer/department_orders/ui_interact(mob/user, datum/tgui/ui)
 	. = ..()
@@ -133,12 +121,7 @@ GLOBAL_LIST_INIT(department_order_cooldowns, list(
 		rank = "Silicon"
 	//already have a signal to finalize the order
 	var/already_signalled = department_order ? TRUE : FALSE
-	var/chosen_delivery_area
-	for(var/delivery_area_type in department_delivery_areas)
-		if(GLOB.areas_by_type[delivery_area_type])
-			chosen_delivery_area = delivery_area_type
-			break
-	department_order = new(pack, name, rank, ckey, "", null, chosen_delivery_area, null)
+	department_order = new(pack, name, rank, ckey, "", null, TRUE, null)
 	SSshuttle.shopping_list += department_order
 	if(!already_signalled)
 		RegisterSignal(SSshuttle, COMSIG_SUPPLY_SHUTTLE_BUY, PROC_REF(finalize_department_order))
@@ -165,7 +148,6 @@ GLOBAL_LIST_INIT(department_order_cooldowns, list(
 /obj/machinery/computer/department_orders/service
 	name = "service order console"
 	circuit = /obj/item/circuitboard/computer/service_orders
-	department_delivery_areas = list(/area/station/hallway/secondary/service, /area/station/service/bar/atrium)
 	override_access = ACCESS_HOP
 	req_one_access = list(ACCESS_SERVICE)
 	dep_groups = list("Service", "Food & Hydroponics", "Livestock", "Costumes & Toys")
@@ -173,7 +155,6 @@ GLOBAL_LIST_INIT(department_order_cooldowns, list(
 /obj/machinery/computer/department_orders/engineering
 	name = "engineering order console"
 	circuit = /obj/item/circuitboard/computer/engineering_orders
-	department_delivery_areas = list(/area/station/engineering/main)
 	override_access = ACCESS_CE
 	req_one_access = REGION_ACCESS_ENGINEERING
 	dep_groups = list("Engineering", "Engine Construction", "Canisters & Materials")
@@ -181,7 +162,6 @@ GLOBAL_LIST_INIT(department_order_cooldowns, list(
 /obj/machinery/computer/department_orders/science
 	name = "science order console"
 	circuit = /obj/item/circuitboard/computer/science_orders
-	department_delivery_areas = list(/area/station/science/research)
 	override_access = ACCESS_RD
 	req_one_access = REGION_ACCESS_RESEARCH
 	dep_groups = list("Science", "Livestock")
@@ -189,11 +169,6 @@ GLOBAL_LIST_INIT(department_order_cooldowns, list(
 /obj/machinery/computer/department_orders/security
 	name = "security order console"
 	circuit = /obj/item/circuitboard/computer/security_orders
-	department_delivery_areas = list(
-		/area/station/security/office,
-		/area/station/security/brig,
-		/area/station/security/brig/upper,
-	)
 	override_access = ACCESS_HOS
 	req_one_access = REGION_ACCESS_SECURITY
 	dep_groups = list("Security", "Armory")
@@ -201,12 +176,6 @@ GLOBAL_LIST_INIT(department_order_cooldowns, list(
 /obj/machinery/computer/department_orders/medical
 	name = "medical order console"
 	circuit = /obj/item/circuitboard/computer/medical_orders
-	department_delivery_areas = list(
-		/area/station/medical/medbay/central,
-		/area/station/medical/medbay,
-		/area/station/medical/treatment_center,
-		/area/station/medical/storage,
-	)
 	override_access = ACCESS_CMO
 	req_one_access = REGION_ACCESS_MEDBAY
 	dep_groups = list("Medical")

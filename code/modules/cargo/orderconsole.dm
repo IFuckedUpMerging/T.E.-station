@@ -125,7 +125,7 @@
 			"id" = SO.id,
 			"orderer" = SO.orderer,
 			"paid" = !isnull(SO.paying_account), //paid by requester
-			"dep_order" = SO.department_destination ? TRUE : FALSE
+			"dep_order" = SO.department_ordered
 		))
 
 	data["requests"] = list()
@@ -282,7 +282,7 @@
 			for(var/datum/supply_order/SO in SSshuttle.shopping_list)
 				if(SO.id != id)
 					continue
-				if(SO.department_destination)
+				if(SO.department_ordered)
 					say("Only the department that ordered this item may cancel it.")
 					return
 				if(SO.applied_coupon)
@@ -298,7 +298,7 @@
 				break
 		if("clear")
 			for(var/datum/supply_order/cancelled_order in SSshuttle.shopping_list)
-				if(cancelled_order.department_destination)
+				if(cancelled_order.department_ordered)
 					continue //don't cancel other department's orders
 				SSshuttle.shopping_list -= cancelled_order
 			. = TRUE

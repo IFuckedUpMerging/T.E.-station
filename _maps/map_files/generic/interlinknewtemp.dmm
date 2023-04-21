@@ -11,6 +11,22 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/space)
+"aj" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/item/kirbyplants/random,
+/obj/structure/railing,
+/turf/open/floor/wood/large,
+/area/space)
+"aq" = (
+/obj/effect/turf_decal/siding/wood/end{
+	dir = 8
+	},
+/turf/open/floor/glass/reinforced,
+/area/space)
 "ar" = (
 /obj/effect/turf_decal/stripes{
 	dir = 8
@@ -68,7 +84,18 @@
 /obj/effect/turf_decal/siding/thinplating_new{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
 /turf/open/floor/iron/dark/small,
+/area/space)
+"ep" = (
+/obj/structure/chair/sofa/bench/right{
+	dir = 4
+	},
+/obj/structure/window/spawner/west,
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/iron/dark/smooth_large,
 /area/space)
 "eZ" = (
 /obj/structure/fluff/tram_rail/end{
@@ -152,6 +179,19 @@
 	pixel_y = 4
 	},
 /turf/open/floor/plating,
+/area/space)
+"gx" = (
+/turf/open/floor/iron/checker,
+/area/space)
+"hy" = (
+/obj/structure/chair/sofa/bench/left{
+	dir = 8
+	},
+/obj/structure/window/spawner/east,
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/iron/dark/smooth_large,
 /area/space)
 "hB" = (
 /obj/structure/railing/corner{
@@ -238,6 +278,12 @@
 	},
 /turf/open/floor/iron/diagonal,
 /area/space)
+"lb" = (
+/obj/structure/table/wood,
+/obj/effect/spawner/random/entertainment/dice,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
 "lK" = (
 /obj/effect/turf_decal/skyrat_decals/misc/handicapped{
 	dir = 8
@@ -255,10 +301,23 @@
 /obj/effect/turf_decal/siding/thinplating_new/end,
 /turf/open/floor/iron/diagonal,
 /area/space)
+"lU" = (
+/obj/structure/sign/poster/official/jim_nortons{
+	pixel_y = 32
+	},
+/turf/open/floor/iron,
+/area/space)
 "mM" = (
 /obj/structure/sign/poster/official/random/directional/north,
 /obj/effect/turf_decal/trimline/dark_blue/corner,
 /turf/open/floor/iron/white/diagonal,
+/area/space)
+"nj" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/vending/coffee,
+/turf/open/floor/iron/dark/smooth_large,
 /area/space)
 "nN" = (
 /turf/cordon,
@@ -314,6 +373,15 @@
 /obj/machinery/door/poddoor/ert,
 /turf/open/floor/plating/elevatorshaft,
 /area/space)
+"sh" = (
+/obj/structure/rack,
+/obj/item/reagent_containers/cup/glass/coffee_cup,
+/obj/item/reagent_containers/cup/glass/coffee_cup,
+/obj/item/reagent_containers/cup/glass/coffee_cup,
+/obj/item/reagent_containers/cup/glass/coffee_cup,
+/obj/item/reagent_containers/cup/glass/coffee_cup,
+/turf/open/floor/iron/checker,
+/area/space)
 "sA" = (
 /obj/effect/turf_decal/siding/thinplating_new{
 	dir = 4
@@ -346,6 +414,24 @@
 	},
 /turf/open/floor/mineral/titanium/blue,
 /area/space)
+"wq" = (
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 8
+	},
+/turf/open/floor/iron/checker,
+/area/space)
+"wz" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/chair/comfy/black{
+	dir = 1
+	},
+/obj/structure/railing,
+/turf/open/floor/wood/large,
+/area/space)
 "xE" = (
 /turf/open/floor/catwalk_floor,
 /area/space)
@@ -374,6 +460,21 @@
 	dir = 4
 	},
 /turf/open/floor/iron/white/diagonal,
+/area/space)
+"yI" = (
+/obj/structure/table{
+	name = "Jim Norton's Quebecois Coffee table"
+	},
+/obj/item/reagent_containers/cup/coffeepot{
+	pixel_y = 14;
+	pixel_x = 8
+	},
+/obj/item/food/poppypretzel{
+	pixel_y = 6;
+	pixel_x = -3
+	},
+/obj/effect/turf_decal/siding/thinplating_new,
+/turf/open/floor/iron/checker,
 /area/space)
 "yN" = (
 /obj/structure/railing/corner{
@@ -517,6 +618,11 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"ET" = (
+/obj/structure/table/wood,
+/obj/item/modular_computer/laptop/preset/civilian,
+/turf/open/floor/wood/tile,
+/area/space)
 "Fg" = (
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/mineral/titanium/tiled,
@@ -535,6 +641,25 @@
 	dir = 4
 	},
 /area/space)
+"Gh" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/large,
+/area/space)
+"Go" = (
+/obj/structure/table/reinforced/titaniumglass,
+/obj/machinery/door/firedoor,
+/turf/open/floor/plating,
+/area/space)
+"Ht" = (
+/obj/effect/turf_decal/siding/wood/end{
+	dir = 4
+	},
+/turf/open/floor/glass/reinforced,
+/area/space)
 "HM" = (
 /obj/effect/turf_decal/siding/dark_blue{
 	dir = 8
@@ -543,6 +668,21 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium,
+/area/space)
+"IK" = (
+/obj/structure/table{
+	name = "Jim Norton's Quebecois Coffee table"
+	},
+/obj/item/reagent_containers/condiment/sugar{
+	pixel_y = 16;
+	pixel_x = -4
+	},
+/obj/item/reagent_containers/condiment/sugar{
+	pixel_y = 11;
+	pixel_x = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/corner,
+/turf/open/floor/iron/checker,
 /area/space)
 "Jv" = (
 /obj/effect/turf_decal/trimline/dark_blue/filled/line,
@@ -612,6 +752,10 @@
 "Ma" = (
 /turf/open/floor/iron,
 /area/space)
+"Mf" = (
+/obj/structure/sink/directional/east,
+/turf/open/floor/iron/checker,
+/area/space)
 "Mw" = (
 /obj/effect/turf_decal/siding/dark_blue{
 	dir = 4
@@ -637,7 +781,27 @@
 /turf/open/floor/plating/elevatorshaft,
 /area/space)
 "MS" = (
-/turf/closed/indestructible/riveted/plastinum,
+/obj/machinery/vending/games,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"MY" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood/tile,
+/area/space)
+"Na" = (
+/obj/structure/closet/secure_closet/freezer/empty{
+	name = "milk freezer"
+	},
+/obj/item/reagent_containers/cup/glass/bottle/juice/cream,
+/obj/item/reagent_containers/cup/glass/bottle/juice/cream,
+/obj/item/reagent_containers/condiment/soymilk,
+/obj/item/reagent_containers/condiment/soymilk,
+/obj/item/reagent_containers/condiment/milk,
+/obj/item/reagent_containers/condiment/milk,
+/turf/open/floor/iron/checker,
 /area/space)
 "Nf" = (
 /obj/effect/turf_decal/trimline/dark_blue/warning{
@@ -655,6 +819,12 @@
 /obj/item/paper_bin,
 /obj/item/pen,
 /turf/open/floor/plating,
+/area/space)
+"NX" = (
+/turf/open/floor/iron/edge,
+/area/space)
+"Ot" = (
+/turf/open/floor/glass/reinforced,
 /area/space)
 "Oy" = (
 /obj/machinery/door/firedoor/border_only{
@@ -689,6 +859,13 @@
 	dir = 8
 	},
 /turf/open/floor/iron/small,
+/area/space)
+"Pi" = (
+/obj/machinery/door/airlock/cmo/glass{
+	name = "Jim Norton's - Employees Only"
+	},
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/iron/checker,
 /area/space)
 "Pl" = (
 /obj/structure/fans/tiny/forcefield,
@@ -728,11 +905,32 @@
 /obj/structure/closet/emcloset,
 /turf/open/floor/mineral/titanium/blue,
 /area/space)
+"SI" = (
+/turf/closed/indestructible/riveted/plastinum/nodiagonal,
+/area/space)
+"SJ" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/glass/reinforced,
+/area/space)
 "SM" = (
 /obj/effect/turf_decal/siding/dark_blue{
 	dir = 8
 	},
 /turf/open/floor/iron/dark/small,
+/area/space)
+"Ts" = (
+/turf/open/floor/wood/tile,
+/area/space)
+"Ub" = (
+/obj/structure/window/reinforced/shuttle,
+/obj/effect/turf_decal/siding/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/dark,
+/turf/open/floor/grass,
 /area/space)
 "Uq" = (
 /obj/effect/turf_decal/stripes{
@@ -741,6 +939,14 @@
 /turf/open/floor/iron/half{
 	dir = 8
 	},
+/area/space)
+"Ur" = (
+/obj/structure/table{
+	name = "Jim Norton's Quebecois Coffee table"
+	},
+/obj/machinery/coffeemaker,
+/obj/effect/turf_decal/siding/thinplating_new,
+/turf/open/floor/iron/checker,
 /area/space)
 "UT" = (
 /turf/open/floor/catwalk_floor/iron,
@@ -757,6 +963,12 @@
 	},
 /obj/machinery/door/poddoor/ert,
 /turf/open/floor/plating/elevatorshaft,
+/area/space)
+"VY" = (
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 4
+	},
+/turf/open/floor/iron/checker,
 /area/space)
 "WC" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -804,11 +1016,43 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"Yo" = (
+/obj/structure/table{
+	name = "Jim Norton's Quebecois Coffee table"
+	},
+/obj/item/coffee_cartridge/decaf{
+	pixel_y = 10;
+	pixel_x = 6
+	},
+/obj/item/coffee_cartridge/decaf{
+	pixel_y = 6;
+	pixel_x = 6
+	},
+/obj/item/coffee_cartridge/fancy{
+	pixel_x = 6
+	},
+/obj/item/coffee_cartridge{
+	pixel_y = 10;
+	pixel_x = -6
+	},
+/obj/item/coffee_cartridge{
+	pixel_y = 6;
+	pixel_x = -6
+	},
+/obj/effect/turf_decal/siding/thinplating_new/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/checker,
+/area/space)
 "Yt" = (
 /obj/effect/turf_decal/siding/thinplating_new{
 	dir = 8
 	},
 /turf/open/floor/plating/elevatorshaft,
+/area/space)
+"Yy" = (
+/obj/machinery/smartfridge/drinks,
+/turf/closed/indestructible/riveted/plastinum/nodiagonal,
 /area/space)
 "YF" = (
 /obj/structure/chair/sofa/bench/right{
@@ -818,6 +1062,17 @@
 	dir = 1
 	},
 /turf/open/floor/iron/diagonal,
+/area/space)
+"Za" = (
+/turf/open/floor/iron/edge{
+	dir = 1
+	},
+/area/space)
+"Zz" = (
+/obj/structure/chair/comfy/black{
+	dir = 8
+	},
+/turf/open/floor/wood/tile,
 /area/space)
 
 (1,1,1) = {"
@@ -6065,8 +6320,8 @@ xP
 xP
 xP
 nN
-MS
-MS
+SI
+SI
 hV
 hV
 hV
@@ -6082,9 +6337,9 @@ JJ
 hV
 hV
 hV
-MS
+SI
 zH
-MS
+SI
 xP
 xP
 xP
@@ -6186,7 +6441,7 @@ fT
 Yt
 MM
 xE
-MS
+SI
 xP
 xP
 xP
@@ -6288,7 +6543,7 @@ Pr
 fT
 Bi
 xE
-MS
+SI
 xP
 xP
 xP
@@ -6390,7 +6645,7 @@ Qv
 Pr
 oK
 xE
-MS
+SI
 xP
 xP
 xP
@@ -6492,7 +6747,7 @@ Pr
 fT
 Bi
 xE
-MS
+SI
 xP
 xP
 xP
@@ -6594,7 +6849,7 @@ fT
 hO
 eZ
 xE
-MS
+SI
 xP
 xP
 xP
@@ -6675,10 +6930,10 @@ xP
 xP
 xP
 xP
-xP
-MS
-MS
-MS
+SI
+SI
+SI
+SI
 bK
 bK
 bK
@@ -6694,9 +6949,9 @@ yN
 bK
 bK
 bK
-MS
+SI
 CU
-MS
+SI
 xP
 xP
 xP
@@ -6777,8 +7032,8 @@ xP
 xP
 xP
 xP
-xP
-MS
+SI
+Ab
 Qc
 kF
 Ma
@@ -6879,10 +7134,10 @@ xP
 xP
 xP
 xP
-xP
-MS
-Ab
-MS
+SI
+SI
+SI
+SI
 Ma
 Ma
 Ma
@@ -6978,29 +7233,29 @@ xP
 xP
 xP
 xP
-xP
-xP
-xP
-xP
+SI
+SI
+SI
+SI
 MS
-MS
-MS
-MS
+nj
+SI
+SI
 xS
 xS
 xS
-MS
+SI
 Vd
 FU
 Bo
 Vd
 FU
-MS
+SI
 xS
 xS
 xS
-MS
-MS
+SI
+SI
 xP
 xP
 xP
@@ -7079,29 +7334,29 @@ xP
 xP
 xP
 xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-MS
+SI
+SI
+Mf
+gx
+Pi
+Ts
+Ts
+ET
+SI
+Ma
+Ma
+NX
+SI
 BV
 ow
 ow
 ow
 Nf
-MS
-xP
-xP
-xP
-xP
+SI
+Za
+Ma
+Ma
+SI
 xP
 xP
 xP
@@ -7181,28 +7436,28 @@ xP
 xP
 xP
 xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-MS
+SI
+IK
+VY
+VY
+Yy
+Ts
+aq
+Zz
+aj
+Ma
+Ma
+NX
+SI
 mM
 yw
 yw
 yw
 pG
-MS
-xP
-xP
-xP
+SI
+Za
+Ma
+Ma
 xP
 xP
 xP
@@ -7283,28 +7538,28 @@ xP
 xP
 xP
 xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-MS
-MS
+SI
+yI
+Ot
+Ot
+Go
+Ts
+SJ
+Ts
+Gh
+Ma
+Ma
+SI
+SI
 zz
 Nk
 JC
 gp
 zz
-MS
-MS
-xP
-xP
+SI
+SI
+Ma
+Ma
 xP
 xP
 xP
@@ -7385,18 +7640,18 @@ xP
 xP
 xP
 xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-MS
+SI
+Ur
+Ot
+Ot
+Go
+Ts
+SJ
+Ts
+Gh
+Ma
+Ma
+SI
 OS
 cS
 cS
@@ -7404,9 +7659,9 @@ BW
 cS
 cS
 Jv
-MS
-xP
-xP
+SI
+Ma
+Ma
 xP
 xP
 xP
@@ -7487,18 +7742,18 @@ xP
 xP
 xP
 xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-MS
+SI
+Yo
+wq
+wq
+SI
+ep
+Ht
+MY
+wz
+Ma
+Ma
+SI
 JM
 hP
 cS
@@ -7506,9 +7761,9 @@ cS
 cS
 cS
 Jv
-MS
-xP
-xP
+SI
+Ma
+Ma
 xP
 xP
 xP
@@ -7589,29 +7844,29 @@ xP
 xP
 xP
 xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-MS
-MS
-MS
+SI
+SI
+Na
+sh
+Ub
+lb
+Ts
+Zz
+SI
+lU
+Ma
+SI
+SI
+SI
 JR
 SM
 aR
-MS
-MS
-MS
-xP
-xP
-xP
+SI
+SI
+SI
+Ma
+Ma
+SI
 xP
 xP
 xP
@@ -7692,29 +7947,29 @@ xP
 xP
 xP
 xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-MS
-MS
+SI
+SI
+SI
+SI
+hy
+Ts
+SI
+SI
+Ma
+Ma
+Ma
+Ma
+SI
+SI
 ef
-MS
-MS
-xP
-xP
-xP
-xP
-xP
-xP
+SI
+SI
+Ma
+Ma
+Ma
+Ma
+SI
+SI
 xP
 xP
 xP
@@ -7797,24 +8052,24 @@ xP
 xP
 xP
 xP
+SI
+SI
+SI
+SI
 xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
+Ma
+Ma
+Ma
+Ma
+Ma
+Ma
+Ma
+Ma
+Ma
+Ma
+Ma
+Ma
+Ma
 xP
 xP
 xP
@@ -7905,17 +8160,17 @@ xP
 xP
 xP
 xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
+Ma
+Ma
+Ma
+Ma
+Ma
+Ma
+Ma
+Ma
+Ma
+Ma
+Ma
 xP
 xP
 xP
@@ -10205,21 +10460,21 @@ xP
 xP
 "}
 (93,1,1) = {"
-MS
-MS
+SI
+SI
 WC
 do
-MS
+SI
 WC
 WC
-MS
+SI
 WC
 WC
-MS
+SI
 do
 WC
-MS
-MS
+SI
+SI
 xP
 xP
 xP
@@ -10307,7 +10562,7 @@ xP
 xP
 "}
 (94,1,1) = {"
-MS
+SI
 oT
 oT
 oT
@@ -10321,7 +10576,7 @@ oT
 oT
 oT
 oT
-MS
+SI
 xP
 xP
 xP
@@ -10409,7 +10664,7 @@ xP
 xP
 "}
 (95,1,1) = {"
-MS
+SI
 oT
 oT
 oT
@@ -10423,7 +10678,7 @@ oT
 oT
 oT
 fh
-MS
+SI
 xP
 xP
 xP
@@ -10511,7 +10766,7 @@ xP
 xP
 "}
 (96,1,1) = {"
-MS
+SI
 oT
 oT
 oT
@@ -10525,7 +10780,7 @@ oT
 oT
 oT
 oT
-MS
+SI
 xP
 xP
 xP
@@ -10613,7 +10868,7 @@ xP
 xP
 "}
 (97,1,1) = {"
-MS
+SI
 oT
 oT
 oT
@@ -10627,7 +10882,7 @@ oT
 oT
 oT
 oT
-MS
+SI
 xP
 xP
 xP
@@ -10715,7 +10970,7 @@ xP
 xP
 "}
 (98,1,1) = {"
-MS
+SI
 oT
 oT
 oT
@@ -10729,7 +10984,7 @@ oT
 oT
 oT
 oT
-MS
+SI
 xP
 xP
 xP
@@ -10817,7 +11072,7 @@ xP
 xP
 "}
 (99,1,1) = {"
-MS
+SI
 rl
 rl
 rl
@@ -10831,7 +11086,7 @@ rl
 rl
 rl
 rl
-MS
+SI
 xP
 xP
 xP

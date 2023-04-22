@@ -391,7 +391,7 @@
 	},
 /obj/structure/window/spawner/east,
 /obj/machinery/door/window/left,
-/turf/open/floor/iron/white/smooth_large,
+/turf/open/floor/noslip/tram_platform,
 /area/space)
 "kF" = (
 /obj/effect/turf_decal/siding/thinplating_new,
@@ -407,6 +407,9 @@
 	},
 /turf/open/floor/iron/diagonal,
 /area/space)
+"kJ" = (
+/turf/open/floor/carpet/lone,
+/area/space)
 "kU" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/trimline/dark_blue/corner{
@@ -419,6 +422,10 @@
 /obj/effect/spawner/random/entertainment/dice,
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"lm" = (
+/obj/item/kirbyplants/random,
+/turf/open/floor/wood/tile,
 /area/space)
 "lK" = (
 /obj/effect/turf_decal/skyrat_decals/misc/handicapped{
@@ -527,6 +534,10 @@
 	},
 /obj/structure/railing,
 /turf/open/floor/plating/elevatorshaft,
+/area/space)
+"oQ" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/parquet,
 /area/space)
 "oT" = (
 /turf/open/floor/plating/elevatorshaft,
@@ -682,6 +693,9 @@
 	},
 /obj/structure/railing,
 /turf/open/floor/wood/large,
+/area/space)
+"wO" = (
+/turf/open/floor/wood/parquet,
 /area/space)
 "xh" = (
 /obj/structure/chair/sofa/bench/left,
@@ -920,6 +934,12 @@
 /obj/effect/landmark/latejoin,
 /turf/open/floor/mineral/titanium,
 /area/centcom/interlink)
+"Du" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/parquet,
+/area/space)
 "DG" = (
 /obj/effect/turf_decal/siding/thinplating_new/corner{
 	dir = 4
@@ -1155,7 +1175,8 @@
 	normaldoorcontrol = 1;
 	specialfunctions = 4
 	},
-/turf/open/floor/wood,
+/obj/structure/closet/cabinet,
+/turf/open/floor/wood/tile,
 /area/space)
 "Lt" = (
 /turf/open/floor/iron/half,
@@ -1180,6 +1201,12 @@
 /obj/effect/landmark/latejoin,
 /turf/open/floor/mineral/titanium,
 /area/centcom/interlink)
+"MI" = (
+/obj/structure/chair/sofa/right/brown{
+	dir = 4
+	},
+/turf/open/floor/carpet/blue,
+/area/space)
 "MM" = (
 /obj/structure/fluff/tram_rail/end{
 	desc = "This probably won't stop a titanium tram from hitting the wall, but it's the thought that counts.";
@@ -1471,7 +1498,10 @@
 /turf/open/floor/iron/checker,
 /area/space)
 "Ut" = (
-/turf/open/floor/wood,
+/obj/structure/chair/sofa/left/brown{
+	dir = 4
+	},
+/turf/open/floor/carpet/blue,
 /area/space)
 "UL" = (
 /obj/effect/turf_decal/siding/thinplating_new/corner,
@@ -1503,6 +1533,9 @@
 "Vr" = (
 /obj/machinery/door/firedoor,
 /turf/open/floor/catwalk_floor/iron,
+/area/space)
+"Vx" = (
+/turf/open/floor/carpet/blue,
 /area/space)
 "VG" = (
 /obj/effect/turf_decal/trimline/dark_green/arrow_cw{
@@ -1593,6 +1626,11 @@
 /obj/effect/landmark/latejoin,
 /turf/open/floor/mineral/titanium,
 /area/centcom/interlink)
+"Xj" = (
+/obj/structure/table/wood,
+/obj/machinery/computer/security/telescreen/entertainment/directional/east,
+/turf/open/floor/carpet/blue,
+/area/space)
 "Xs" = (
 /obj/structure/flora/tree/jungle,
 /turf/open/floor/grass,
@@ -7783,9 +7821,9 @@ Ma
 Ma
 SI
 KB
+kJ
 Ut
-Ut
-Ut
+MI
 SI
 xP
 xP
@@ -7884,10 +7922,10 @@ SI
 SI
 SI
 SI
-Ut
-Ut
-Ut
-Ut
+lm
+Ts
+Vx
+Xj
 SI
 xP
 xP
@@ -7983,13 +8021,13 @@ SI
 ku
 TD
 SI
-Ut
-Ut
-Ut
-Ut
-Ut
-Ut
-Ut
+Du
+wO
+oQ
+Ts
+Ts
+SI
+SI
 SI
 xP
 xP
@@ -8085,13 +8123,13 @@ SI
 Cs
 gw
 aP
-Ut
-Ut
-Ut
-Ut
-Ut
-Ut
-Ut
+Du
+wO
+oQ
+Ts
+Ts
+Ts
+Ts
 SI
 xP
 xP
@@ -8187,13 +8225,13 @@ SI
 aM
 Ns
 SI
-Ut
-Ut
-Ut
-Ut
-Ut
-Ut
-Ut
+Du
+wO
+oQ
+Ts
+Ts
+Ts
+Ts
 SI
 xP
 xP
@@ -8292,9 +8330,9 @@ SI
 SI
 EK
 SI
-Ut
-Ut
-Ut
+Ts
+Ts
+Ts
 SI
 SI
 xP
@@ -8394,8 +8432,8 @@ aq
 Ts
 Ts
 SI
-Ut
-Ut
+Ts
+Ts
 SI
 SI
 xP
